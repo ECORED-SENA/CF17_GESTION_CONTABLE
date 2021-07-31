@@ -1,0 +1,23 @@
+.tarjeta
+  .color-primario--claro
+    background-color: rgba(101, 149, 191, 0.1)
+
+.bloque-texto-a
+  &.color-primario
+    background-color: lighten($color-primario, 35%)
+
+.cajon
+  &.color-primario
+    background-color: lighten($color-primario, 35%)
+
+.bloque-texto-b
+  &.color-primario
+    &:before
+      background-color: lighten($color-primario, 35%)
+
+.tarjetas-claras
+  .tarjeta
+    &.color-primario
+      background-color: lighten($color-primario, 25%)
+    &.color-acento-contenido
+      background-color: lighten($color-acento-contenido, 25%)
