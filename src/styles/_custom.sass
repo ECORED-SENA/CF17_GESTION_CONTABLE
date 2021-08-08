@@ -21,3 +21,102 @@
       background-color: lighten($color-primario, 25%)
     &.color-acento-contenido
       background-color: lighten($color-acento-contenido, 25%)
+
+.tabla
+  font-size: 0.7rem
+  overflow-x: auto
+  table
+    min-width: 700px
+  thead
+    tr
+      &:nth-child(1)
+        th
+          background-color: $color-secundario
+          border-color: darken($color-secundario, 15%)
+          border-top-color: $color-secundario
+          border-bottom-color: $color-secundario
+      &:nth-child(2)
+        th
+          background-color: $color-acento-contenido
+          border-color: darken($color-acento-contenido, 15%)
+          border-top-color: $color-acento-contenido
+          border-bottom-color: $color-acento-contenido
+      &:nth-child(3)
+        th
+          background-color: #A66D58
+          border-color: darken(#A66D58, 10%)
+          border-top-color: #A66D58
+          border-bottom-color: #A66D58
+
+      &:only-child
+        th
+          background-color: $color-acento-contenido
+          border-color: darken($color-acento-contenido, 15%)
+
+  th
+    background-color: $color-acento-contenido
+    border-color: darken($color-acento-contenido, 15%)
+    color: $white
+    text-align: center
+    *
+      color: $white
+      font-weight: bold
+
+  tbody
+    tr
+      background-color: $lightest-gray
+      &:nth-child(odd)
+        background-color: $white
+
+  td
+    border-color: $lighter-gray
+
+  .dark
+    background-color: $color-secundario !important
+    border-color: darken($color-secundario, 15%) !important
+    color: $white
+    th, td
+      background-color: $color-secundario !important
+      border-color: darken($color-secundario, 15%) !important
+      color: $white
+
+  .light
+    background-color: $color-acento-contenido !important
+    border-color: darken($color-acento-contenido, 15%) !important
+    color: $white !important
+    th, td
+      background-color: $color-acento-contenido !important
+      border-color: darken($color-acento-contenido, 15%) !important
+      color: $white !important
+
+  .brwn
+    background-color: #A66D58 !important
+    border-color: darken(#A66D58, 10%) !important
+    color: $white !important
+    th, td
+      background-color: #A66D58 !important
+      border-color: darken(#A66D58, 10%) !important
+      color: $white !important
+
+  &.w-auto
+    table
+      min-width: auto
+
+
+
+.puntos-abajo
+  .slyder-a__bullets
+    bottom: 0px
+
+
+.divicion
+  &__top, &__bottom
+    text-align: center
+  &__top
+    border-bottom: 2px solid $color-primario
+  &__bottom
+
+
+
+.text-small
+  font-size: 0.8em !important
