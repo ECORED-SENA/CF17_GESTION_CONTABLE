@@ -64,22 +64,22 @@ export default {
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+      // {
+      //   nombreRuta: 'complementario',
+      //   icono: 'far fa-folder-open',
+      //   titulo: 'Material complementario',
+      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -100,104 +100,85 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Borda, J. y Otálora, J. (2013, 10 diciembre). Sistema de costos ABC: una herramienta para el proceso de toma de decisiones para las cooperativas de ahorro y crédito de la ciudad de Barranquilla. Revista Civilizar de Empresa y Economía, 4(8).',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://revistas.usergioarboleda.edu.co/index.php/ceye/article/view/257',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Estupiñán, R. (2013). NIC/NIFF Transición y adopción en la empresa. Ediciones de la U.',
+    },
+    {
+      referencia:
+        'Gerencie.com. (2020, 10 octubre). ¿Qué es un sistema de costos? ',
+      link: 'https://www.gerencie.com/que-es-un-sistema-de-costos.html',
+    },
+    {
+      referencia:
+        'Gómez, O. (2005). Contabilidad de costos. McGraw-Hill Education.',
+    },
+    {
+      referencia:
+        'Miller, J. y Vollman, T. (1985). “The hidden Factory”. Harvard Business Review, 63(1), p. 142-150.',
+    },
+    {
+      referencia:
+        'Porter, M. E. (1998). Competitive Advantage: Creating and Sustaining Superior Performance. Free Press.',
+    },
+    {
+      referencia:
+        'Sinisterra, G. (2006). Contabilidad de costos. Ecoe Ediciones.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/a/29890/contabilidad-de-costos',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Sinisterra, G. (2017). Contabilidad de costos con aproximaciones a las normas internacionales. Ecoe Ediciones.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/a/66611/contabilidad-de-costos--con-aproximacion-a-las-normas-internacionales--2a-ed.-',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Toro, F. J. (2016). Costos Abc y presupuestos: Herramientas para la productividad. Ecoe Ediciones.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/a/40831/costos-abc-y-presupuestos--herramientas-para-la-productividad--2a-ed',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Valladares, A. (2018, 7 septiembre). La importancia del punto de equilibrio. Alvaro Valladares. ',
+      link: 'https://alvarovalladares.com/punto-de-equilibrio/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Centro de costos',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'es una división funcional, el costo unitario se calcula para dicha división, dividiendo el costo total acumulado de ese centro de costos entre la cantidad de sus unidades y antes de su transferencia a un centro de costos subsecuente. Al final, se suman algebraicamente los costos de cada centro. ',
     },
     {
-      termino: 'Suftware',
+      termino: 'Contabilidad de costos',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'rama de la contabilidad general que sintetiza y registra los costos de las empresas manufactureras, de servicios y comerciales, con el fin de que puedan medirse, controlarse e interpretarse.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Costeo por operaciones',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'es un sistema de acumulación de costos por órdenes de trabajo, en el cual los costos se acumulan por estaciones de operaciones o de trabajo. ',
     },
     {
-      termino: 'Áectores',
+      termino: 'Costeo por proyectos',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'forma del sistema de acumulación de costos por órdenes de trabajo que se utiliza para contabilizar la construcción a largo plazo o los contratos de servicios prestados definidos como proyectos. ',
     },
     {
-      termino: 'Moda',
+      termino: 'Costo',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'son los egresos necesarios para adquirir o producir bienes y servicios. ',
     },
     {
-      termino: 'Diseño',
+      termino: 'Costo de conversión',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'son los costos de la mano de obra directa y los costos indirectos de fabricación que se requieren para convertir la materia prima (material directo) en un producto. ',
     },
   ],
   complementario: [
@@ -245,6 +226,36 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Norberto Alejo Cante',
+        cargo: 'Instructor',
+        centro: 'Centro de Servicios Financieros-Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jorge Alberto Leal Tocora',
+        cargo: 'Instructor',
+        centro: 'Centro de Servicios Financieros-Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jasbleidy Contreras Beltrán',
+        cargo: 'Instructor',
+        centro: 'Centro de Servicios Financieros-Regional Distrito Capital',
+      },
+      {
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Vilma Lucía Perilla M.',
+        cargo: 'Revisora pedagógica y metodológica',
+        centro: 'Centro de gestión Industrial – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Uriel Darío González Montoya',
+        cargo: 'Acompañamiento pedagógico',
+        centro: 'Regional Tolima – Centro Agropecuario La Granja',
+      },
     ],
     desarrolloProducto: [
       {
@@ -259,25 +270,31 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

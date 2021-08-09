@@ -22,8 +22,6 @@
       br
       | Para la elaboración de este componente, se abordaron varios autores conocidos en sistema de costeo y estado de costos, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido que el conocimiento es social y, por lo tanto, es para usarlo por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de gestión contable e información financiera.
 
-
-    
 </template>
 
 <script>
