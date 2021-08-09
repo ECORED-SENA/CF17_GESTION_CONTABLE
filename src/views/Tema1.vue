@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
+
     #t1.titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 1
@@ -21,7 +21,7 @@
 
     p.mb-5 Es necesario identificar los tipos de costos, los cuales se clasifican de acuerdo con su comportamiento, factores de producción y productos, y su comportamiento, como se observa a continuación: 
 
-    .tarjeta.color-primario--claro.p-5.mb-5
+    .tarjeta.color-primario--claro.p-5
       .row.justify-content-center.mb-5
         .col-md-9
           img(src="@/assets/curso/t1-tabla-01.svg", alt="Texto que describa la imagen")
@@ -125,7 +125,7 @@
     .row.justify-content-around.align-items-center.mb-5
       .col-6.col-md-4.mb-4.mb-md-0
           img(src="@/assets/curso/t1-02.svg", alt="Texto que describa la imagen")
-      .col-md-4
+      .col-md-6.col-lg-4
         ol.lista-ol--cuadro.mb-0
           li.mb-4
             .lista-ol--cuadro__vineta
@@ -143,7 +143,7 @@
             .lista-ol--cuadro__vineta
               span 4
             .h4.mb-0 Costos indirectos de fabricación.
-          li.mb-4
+          li.mb-0
             .lista-ol--cuadro__vineta
               span 5
             .h4.mb-0 Horas máquina. 
@@ -611,7 +611,7 @@
     p.mb-4 Con el fin de dar cumplimiento al proceso de sistema de costos por órdenes de producción, se debe recurrir a los soportes que permiten identificar cada uno de los procesos; ellos son:
 
     .tarjeta.color-primario--claro.p-4.mb-5
-      TabsC.color-acento-contenido.mb-5
+      TabsC.color-acento-contenido
         .py-3.py-md-4(titulo="Orden de producción")
           p.mb-4 Es un formato que contiene identificación de la empresa fabricante y del cliente; describe el producto a fabricar con sus características específicas, fecha de inicio de la producción, fecha de entrega del producto, y espacios específicos para identificar cada uno de los elementos del costo que se cargarán a dicha orden de producción; soportado por requisición de materia prima directa e insumos,  controles de tiempo de mano de obra directa y otros costos indirectos de fabricación cargados a dicha orden, generando un total por elemento del costo y un gran total del costo de dicha orden de producción, con el cual podemos establecer el costo unitario dependiendo de las unidades fabricadas. 
             br
@@ -874,9 +874,7 @@
         .py-3.py-md-4(titulo="Ficha técnica")
           p.mb-4 Indica el producto a elaborar, debe tener una foto, bosquejo o plano del producto con sus características específicas, indicando además las materias primas requeridas en cantidades y unidades para la elaboración de un producto y los procesos que se deben seguir para la elaboración del producto terminado; también informa sobre los equipos o maquinaria requeridos para la elaboración de dicho producto.
 
-    
-
-          .tabla
+          .tabla.w-small
             table
               thead
                 tr
@@ -923,7 +921,7 @@
         img(src="@/assets/curso/t2-01.svg", alt="Texto que describa la imagen")
         
       .col-md
-        .tabla
+        .tabla.w-auto
           table
             thead
               tr
@@ -1217,7 +1215,7 @@
 
     p.mb-5 Se procede a calcular los Costos Indirectos de Fabricación (CIF) fijos de la mano de obra indirecta, según la nómina de presupuesto, teniendo en cuenta toda la normatividad legal vigente.
 
-    .tabla.mb-5
+    .tabla.w-small.mb-5
       table
         thead
           tr
@@ -1235,6 +1233,7 @@
           tr
             td TODERO
             td $1.339.765,00
+        thead
           tr
             th.text-end TOTAL
             th.text-start $6.138.330,00
@@ -1247,7 +1246,7 @@
 
     p.mb-5 También debemos presupuestar los otros Costos Indirectos de Fabricación (CIF) fijos de producción, como arriendos, servicios públicos, mantenimiento, depreciación, impuestos, seguros, entre otros, que se puedan presentar, según lo requieran en la planta de producción.
 
-    .tabla.mb-5
+    .tabla.w-small.mb-5
       table
         thead
           tr
@@ -1271,6 +1270,7 @@
           tr
             td VARIOS 
             td  $0
+        thead
           tr
             th.text-end TOTAL 
             th.text-start $ 4.054.167,00
@@ -1283,9 +1283,9 @@
 
     p.mb-5 Ahora, es momento de establecer el costo unitario presupuestado
 
-    .row.justify-content-center.mb-5
-      .col-xxl.mb-4.mb-xxl-0
-        .tabla
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg.mb-4.mb-lg-0
+        .tabla.w-auto
           table
             thead
               tr
@@ -1321,7 +1321,7 @@
                 th.text-end COSTO UNITARIO TOTAL
                 th.text-start $1.653,22
 
-      .col-6.col-xxl-4
+      .col-6.col-lg-3
         img(src="@/assets/curso/t2-03.svg", alt="Texto que describa la imagen")
 
     p.mb-5 Para la proyección de CIF, también se puede calcular la tasa predeterminada, la cual se establece de la materia prima directa, la mano de obra directa, el costo primo, o unidades producidas y horas hombre, entre otros.
@@ -1366,12 +1366,13 @@
             td HORAS MÁQUINA
             td  
             td  
-            td  
+            td 
+        thead
           tr
             th.text-end(colspan="3") TASA PREDETERMINADA DE CIF =====>
             th.text-start 15,21%
 
-    .tabla.mb-5
+    .tabla.w-small.mb-5
       table
         thead
           tr
@@ -1379,38 +1380,31 @@
           tr
             th(colspan="3") COSTO ESTÁNDAR UNITARIO EMPANADAS 
           tr
-            th CONCEPTO 
-            th  
+            th(colspan="2") CONCEPTO
             th VALOR 
         tbody
           tr
-            td MPD
-            td  
+            td(colspan="2") MPD
             td $727,5
           tr
-            td MOD
-            td  
+            td(colspan="2") MOD
             td $707,5
           tr
-            td COSTO PRIMO
-            td  
+            td(colspan="2") COSTO PRIMO
             td $1.435,00
           tr
-            td CIF VAR MPI-INSUMOS
-            td  
+            td(colspan="2") CIF VAR MPI-INSUMOS
             td $14,38
           tr
-            td CIF MOI
-            td  
+            td(colspan="2") CIF MOI
             td $122,77
           tr
-            td CIF VARIOS 
-            td  
+            td(colspan="2") CIF VARIOS
             td $81,08
           tr
-            td CIF TOTALES 
-            td  
+            td(colspan="2") CIF TOTALES
             td $218,22
+        thead
           tr
             th.text-end(colspan="2") COSTO UNITARIO TOTAL
             th.text-start $1.653,22
@@ -1484,20 +1478,23 @@
 
     p.mb-5 Ahora, se realiza el presupuesto del precio de venta unitario (PVU); para hacerlo hay varias fórmulas, para este ejemplo se aplica la fórmula de margen de contribución (MC), según la política de precios al costo de producción unitario, para obtener:
 
-    .tabla.mb-5
-      table
-        thead
-          tr
-            th(colspan="3") PVU = CTO + MC 
-            th VENTA =
-            th COSTO +
-            th MC 80%
-        tbody
-          tr
-            td(colspan="3") PRECIO DE VENTA UNITARIO 
-            td 3.000,00
-            td 1.653,22
-            td 1.322,58
+    .row.justify-content-center.mb-5
+      .col-md-8
+        .tabla.w-small
+          table
+            thead
+              tr
+                th(colspan="3") PVU = CTO + MC 
+                th VENTA =
+                th COSTO +
+                th MC 80%
+            tbody
+              tr
+                td(colspan="3") PRECIO DE VENTA UNITARIO 
+                td 3.000,00
+                td 1.653,22
+                td 1.322,58
+        
 
     p.mb-5 El precio de venta de $3.000 se ha aproximado al 100.
 
@@ -2231,10 +2228,10 @@
                 td
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-md-8
+      .col-md-8.mb-4.mb-md-0
         h3.mb-5 Liquidación y reconocimiento de la mano de obra directa requerida
 
-        p.mb-5 En la ficha técnica se establece el presupuesto de la mano de obra directa de los diferentes procesos para la elaboración del producto y se determina la especialización de cada operario requerido para la fabricación de este, al igual que el número de operarios necesarios para la producción. En el proceso de producción se debe implementar un control de tiempo, que permita establecer el tiempo a liquidar en cada orden de producción una vez culminado el proceso de fabricación. El departamento de personal liquidará la respectiva nómina de mano de obra directa del personal de planta de producción, ajustado a la normatividad laboral vigente, junto con su respectivo reconocimiento en la cuenta control de mano directa de producción. 
+        p.mb-0 En la ficha técnica se establece el presupuesto de la mano de obra directa de los diferentes procesos para la elaboración del producto y se determina la especialización de cada operario requerido para la fabricación de este, al igual que el número de operarios necesarios para la producción. En el proceso de producción se debe implementar un control de tiempo, que permita establecer el tiempo a liquidar en cada orden de producción una vez culminado el proceso de fabricación. El departamento de personal liquidará la respectiva nómina de mano de obra directa del personal de planta de producción, ajustado a la normatividad laboral vigente, junto con su respectivo reconocimiento en la cuenta control de mano directa de producción. 
           br
           br
           | A continuación, se ilustra la liquidación de la nómina en sus diferentes secciones, para un operario de mano de obra directa y un operario de mano de obra indirecta.
@@ -3365,13 +3362,13 @@
             td  
             td $35.106
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-md.mb-4.mb-md-0
         p.mb-4 Al terminar la producción a final de mes, se realiza el cierre de las cuentas control de costos de producción contra el inventario de productos, lo cual significa que las cuentas deben quedar canceladas al cierre de todos los meses.
           br
           br
           | A continuación, se puede observar el proceso detallado y explicado mediante un ejemplo. Para efectos del cierre de las cuentas de control de producción, se crean en el plan de cuentas las respectivas cuentas de cierre:
-        .tabla
+        .tabla.w-small
           table
             tbody
               tr
@@ -3429,7 +3426,7 @@
             td 
             td $33.400.689
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-6.col-md-3.mb-4.mb-md-0
         img(src='@/assets/curso/t4-02.svg', alt='Texto que describa la imagen')
         
@@ -3439,7 +3436,7 @@
           br
           | Se procede a calcular el CIF predeterminado aplicando la tasa CIF del costo primo.
 
-        .tabla
+        .tabla.w-auto
           table
             thead
               tr
@@ -3461,7 +3458,7 @@
             thead
               tr
                 th.dark.text-end CIF PREDETERMINADO
-                th.dark $10.440.086
+                th.dark.text-start $10.440.086
 
     p.mb-5 Ahora, se trasladan las unidades terminadas del inventario de productos en proceso al inventario de productos terminados, utilizando el CIF predeterminado.
 
@@ -3793,8 +3790,8 @@
     p.mb-5 Reconocimiento de las facturas de servicios públicos pendientes para poder cerrar la cuenta de control de costos indirectos de fabricación.
 
     .tarjeta.tarjeta--gris.p-4.mb-5
-      SlyderA.puntos-abajo
-        div.pb-5
+      SlyderE(indicadores="derecha")
+        div
           h4.mb-3 Servicio Energía
           .tabla.mb-3
             table
@@ -3866,7 +3863,7 @@
                   td  
                   td $400.000
             
-        div.pb-5
+        div
           h4.mb-3 Servicio de acueducto y alcantarillado
           .tabla.mb-3
             table
@@ -3938,7 +3935,7 @@
                   td 
                   td $300.000
 
-        div.pb-5
+        div
           h4.mb-3 Servicio gas natural
           .tabla.mb-3
             table
@@ -4011,7 +4008,7 @@
                   td 
                   td $600.000
 
-        div.pb-5
+        div
           h4.mb-3 Servicio de teléfono
           .tabla.mb-3
             table
@@ -4272,7 +4269,7 @@
             img(src='@/assets/curso/t5-icon-02.svg', alt='Texto que describa la imagen')
           .col
             h3.mb-0 Se asignan responsabilidades.
-        .row.align-items-centers
+        .row.align-items-center
           .col-2
             img(src='@/assets/curso/t5-icon-03.svg', alt='Texto que describa la imagen')
           .col
@@ -4510,15 +4507,15 @@
                   td 1
 
     .row.justify-content-center.mb-5
-      .col-md-8
-        .cajon.color-acento-contenido.p-4.mb-4
+      .col-lg-8
+        .cajon.color-acento-contenido.p-4
           p.mb-0 Para la elaboración del producto, los costos indirectos (CI) de la empresa corresponden a servicios públicos, arrendamientos, depreciación maquinaria y equipo, entre otros.
 
     p.mb-5 Los costos indirectos de fabricación del mes corresponden a: $40.000.000
 
     .row.justify-content-center.mb-5
-      .col-md-8
-        .cajon.color-acento-contenido.p-4.mb-4
+      .col-lg-8
+        .cajon.color-acento-contenido.p-4
           p.mb-0 Tener en cuenta el detalle de la materia prima (MP), la mano de obra directa (MOD) por unidad producida o elaborada, horas hombre (HH) y horas máquina (HM) utilizadas en cada unidad:
 
     .tabla
@@ -4544,15 +4541,15 @@
     p.mb-5.text-center 13.000 TOTAL UNIDADES PRODUCIDAS (TUP)
 
     .row.justify-content-center.mb-5
-      .col-md-8
-        .cajon.color-acento-contenido.p-4.mb-4
+      .col-lg-8
+        .cajon.color-acento-contenido.p-4
           p.mb-0 Se realizó la producción de 13.000 unidades, se debe determinar la proporción entre el costo indirecto (CI) y el total de las unidades producidas.
 
     p.mb-5 Costo indirecto de producción (CIP)
 
     .row.justify-content-center.mb-5
-      .col-md-6
-        .cajon.color-primario.p-4.mb-4
+      .col-lg-6
+        .cajon.color-primario.p-4
 
           .d-flex.align-items-center.justify-content-center.mb-4
             .flex-shrink-1.me-3
@@ -4626,15 +4623,15 @@
             td $ 73.000.000
 
     .row.justify-content-center.mb-5
-      .col-md-6
-        .cajon.color-acento-contenido.p-4.mb-4
+      .col-lg-6
+        .cajon.color-acento-contenido.p-4
           p.mb-0 El costo total de la materia prima (MP) es de $15.000. Se asigna una proporción entre el costo indirecto (CI) y el total de las unidades producidas.
 
     p.mb-5 Costo total de materia prima (CTMP)
 
     .row.justify-content-center.mb-5
-      .col-md-6
-        .cajon.color-primario.p-4.mb-4
+      .col-lg-6
+        .cajon.color-primario.p-4
 
           .d-flex.align-items-center.justify-content-center.mb-4
             .flex-shrink-1.me-3
@@ -4708,13 +4705,13 @@
             td $ 10.500
 
     .row.justify-content-center.mb-5
-      .col-md-6
-        .cajon.color-acento-contenido.p-4.mb-4
+      .col-lg-6
+        .cajon.color-acento-contenido.p-4
           p.mb-0 El costo total de la materia prima es de $10,250, para lo cual se determina la proporción entre los costos indirectos (CI) y el total de horas hombre usadas.
 
     .row.justify-content-center.mb-5
-      .col-md-6
-        .cajon.color-primario.p-4.mb-4
+      .col-lg-6
+        .cajon.color-primario.p-4
 
           .d-flex.align-items-center.justify-content-center.mb-4
             .flex-shrink-1.me-3
@@ -4789,13 +4786,13 @@
             td $ 10.500
 
     .row.justify-content-center.mb-5
-      .col-md-6
-        .cajon.color-acento-contenido.p-4.mb-4
+      .col-lg-6
+        .cajon.color-acento-contenido.p-4
           p.mb-0 Para hallar la proporción que le corresponde al costo horas máquina, se toman los costos indirectos y se dividen en costo horas máquina.
 
     .row.justify-content-center.mb-5
-      .col-md-6
-        .cajon.color-primario.p-4.mb-4
+      .col-lg-6
+        .cajon.color-primario.p-4
 
           .d-flex.align-items-center.justify-content-center.mb-4
             .flex-shrink-1.me-3
@@ -4869,8 +4866,8 @@
     p.mb-5 El costo total de la mano de obra directa es de $22,600,000. Se determina la proporción entre los costos indirectos (CI) y el total de costos de mano de obra directa, CIMOD.
 
     .row.justify-content-center.mb-5
-      .col-md-6
-        .cajon.color-primario.p-4.mb-4
+      .col-lg-6
+        .cajon.color-primario.p-4
 
           .d-flex.align-items-center.justify-content-center.mb-4
             .flex-shrink-1.me-3
@@ -4891,7 +4888,7 @@
                 h4.mb-0 22.600.000
             h4.mb-0 = $1,7699
 
-    .tabla.mb-5
+    .tabla
       table
         thead
           tr
