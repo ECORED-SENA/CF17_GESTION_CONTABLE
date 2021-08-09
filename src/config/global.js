@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+      'Identificación del sistema de costeo y elaboración del estado de costos.',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'Se continúa con la identificación y comprensión de los costos de producción, y así, identificar, aplicar, analizar y detallar los tipos y sistemas de costo, establecer el sistema de costos más adecuado y acorde con las características de la producción de la empresa, para lograr generar el estado de costos de producción que sirva para la toma de decisiones de la gerencia.',
     imagenBannerPrincipal: require('@/assets/curso/inicio-img.svg'),
     fondoBannerPrincipal: require('@/assets/curso/inicio-bg.svg'),
   },
