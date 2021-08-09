@@ -122,7 +122,7 @@
               .divicion__top.px-3.py-1
                 h4.mb-0 $ 23.082.497
               .divicion__bottom.px-3.py-1
-                h4.mb-0 3.000,00 -1.449,38
+                h4.mb-0 3.000,00 - 1.449,38
             h4.mb-0 = 14.886 Unidades a vender
 
     p.mb-5 De acuerdo con el ejemplo, se puede deducir que la empresa debe vender más de las 14.886 unidades para obtener utilidad; si lo hace por debajo de esas unidades, presentará perdida.

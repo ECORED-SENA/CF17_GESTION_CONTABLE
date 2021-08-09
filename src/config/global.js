@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Identificación del sistema de costeo y elaboración del estado de costos.',
+      'Identificación del sistema de costeo y elaboración del estado de costos',
     descripcionCurso:
       'Se continúa con la identificación y comprensión de los costos de producción, y así, identificar, aplicar, analizar y detallar los tipos y sistemas de costo, establecer el sistema de costos más adecuado y acorde con las características de la producción de la empresa, para lograr generar el estado de costos de producción que sirva para la toma de decisiones de la gerencia.',
     imagenBannerPrincipal: require('@/assets/curso/inicio-img.svg'),
