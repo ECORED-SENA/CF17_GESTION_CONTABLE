@@ -1,2 +1,2 @@
 module.exports =
-  'Componente Formativo con un nombre extremadamente largo y extenso'
+  'Identificación del sistema de costeo y elaboración del estado de costos'
