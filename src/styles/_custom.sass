@@ -23,8 +23,9 @@
       background-color: lighten($color-acento-contenido, 25%)
 
 .tabla
-  font-size: 0.7rem
   overflow-x: auto
+  *
+    font-size: 0.7rem
   table
     min-width: 700px
   thead
@@ -67,6 +68,12 @@
       background-color: $lightest-gray
       &:nth-child(odd)
         background-color: $white
+    td
+      text-align: center
+      &:first-child
+        text-align: left
+      &:last-child
+        text-align: right
 
   td
     border-color: $lighter-gray

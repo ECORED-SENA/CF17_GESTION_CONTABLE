@@ -26,6 +26,8 @@
         .col-md-9
           img(src="@/assets/curso/t1-tabla-01.svg", alt="Texto que describa la imagen")
 
+      p.mb-5 A continuación, se puede ver qué significa cada uno de ellos: 
+
       .row.mb-4.justify-content-center
         .col-4.col-sm-2.col-md-1.mb-4.mb-sm-0
           img(src="@/assets/curso/t1-icon-01.svg", alt="Texto que describa la imagen")
@@ -109,7 +111,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7yMcPXQ7Ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
 
     h3.mb-4 Costos por órdenes de producción
@@ -162,24 +164,28 @@
       div
         p.mb-0 
           b Compra de materiales. 
-          | Recibe $ 110.000 en materiales, consistentes en: 20 láminas de madera ($ 100.000), 100 galones de pintura ($ 5.000), 15 cajas de pegamento ($ 3.000), 5 cajas de clavos ($ 2.000)
+          | Recibe $110.000 en materiales, consistentes en: 20 láminas de madera ($100.000), 100 galones de pintura ($5.000), 15 cajas de pegamento ($3.000), 5 cajas de clavos ($2.000)
       div
         p.mb-0 
           b Consumo de materiales. 
-          | Un día posterior al que el departamento de compras recibió el material, el departamento de producción solicitó los siguientes materiales: 5 láminas de madera ($ 25.000), 10 galones de pintura ($ 5.000), pegamento ($ 2.000), clavos ($ 4.000).
+          | Un día posterior al que el departamento de compras recibió el material, el departamento de producción solicitó los siguientes materiales: 5 láminas de madera ($25.000), 10 galones de pintura ($5.000), pegamento ($2.000), clavos ($4.000).
           br
           br
-          | Total de costos indirectos: $ 11.000. Son costos indirectos porque no utilizarán toda la pintura, ni todo el pegamento, ni todos los clavos.Recibe $ 110.000 en materiales, consistentes en: 20 láminas de madera ($ 100.000), 100 galones de pintura ($ 5.000), 15 cajas de pegamento ($ 3.000), 5 cajas de clavos ($ 2.000)
+          | Total de costos indirectos: $11.000. Son costos indirectos porque no utilizarán toda la pintura, ni todo el pegamento, ni todos los clavos.
 
       div
         p.mb-0 
           b Costo de la mano de obra. 
-          | El departamento de producción incurrió en los siguientes costos de nómina: mano de obra directa ($ 35.000), mano de obra indirecta ($ 10.000). Total $ 45.000. 
+          | El departamento de producción incurrió en los siguientes costos de nómina: mano de obra directa ($35.000), mano de obra indirecta ($10.000). Total $45.000. 
           br
           br
           | A estos costos hay que agregarles los costos indirectos de fabricación y se obtiene el total del valor de los costos de las órdenes de producción. 
 
-    p.mb-5 A continuación, se detalla el ciclo contable de los costos por órdenes de producción:
+    p.mb-5 Con estos conceptos y el ejemplo utilizado, se espera que se comprenda el concepto de sistema de costos por órdenes. 
+      br
+      br
+      | A continuación, se detalla el 
+      b ciclo contable de los costos por órdenes de producción:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       div(titulo="Compra de materia prima directa. Reconocimiento:")
@@ -196,27 +202,27 @@
               tr
                 td 1405XX
                 td(colspan="2") Inventarios de materia prima
-                td xxx
-                td $ $ 
+                td.text-end xxx
+                td.text-end $$
                 td 
               tr
                 td 2205XX
                 td(colspan="2") Proveedores
                 td 
                 td 
-                td $ $ 
+                td $$
               tr
                 td 24XXXX
                 td(colspan="2") Impuestos
                 td 
                 td 
-                td $ $ 
+                td $$
               tr
                 td 23XXXX
                 td(colspan="2") Retenciones
                 td 
                 td 
-                td $ $ 
+                td $$
 
       div(titulo="Traslado de materia prima directa a la planta de producción. Reconocimiento:")
         .tabla
@@ -232,15 +238,15 @@
               tr
                 td 7105XX
                 td(colspan="2") Materia prima directa
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 1405XX
                 td(colspan="2") Inventarios de materia prima
                 td 
                 td 
-                td $ $ 
+                td $$
 
       div(titulo="Contratación de mano de obra directa. Reconocimiento:")
         .tabla
@@ -256,15 +262,15 @@
               tr
                 td 7205XX
                 td(colspan="2") Mano de obra directa
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 25XXXX
                 td(colspan="2") Obligaciones laborales
                 td 
                 td 
-                td $ $ 
+                td $$
 
       div(titulo="Compra de los insumos de producción. Reconocimiento:")
         .tabla
@@ -280,27 +286,27 @@
               tr
                 td 7301XX
                 td(colspan="2") CIF Insumos
-                td xxx
-                td $ $ 
+                td.text-end xxx
+                td.text-end $$
                 td 
               tr
                 td 2205XX
                 td(colspan="2") Proveedores
                 td 
                 td 
-                td $ $ 
+                td $$
               tr
                 td 24XXXX
                 td(colspan="2") Impuestos
                 td 
                 td 
-                td $ $ 
+                td $$
               tr
                 td 23XXXX
                 td(colspan="2") Retenciones
                 td 
                 td 
-                td $ $ 
+                td $$
 
       div(titulo="Contratación de mano de obra indirecta. Reconocimiento:")
         .tabla
@@ -316,15 +322,15 @@
               tr
                 td 7305XX
                 td(colspan="2") Mano de obra indirecta
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 25XXXX
                 td(colspan="2") Obligaciones laborales
                 td 
                 td 
-                td $ $ 
+                td $$
 
       div(titulo="Compra y reconocimiento de otros CIF, como arriendos, servicios públicos, mantenimiento, seguros, impuestos, depreciación, entre otros. Reconocimiento: ")
         .tabla
@@ -340,51 +346,51 @@
               tr
                 td 7320XX
                 td(colspan="2") Arriendos
-                td xxx
-                td $ $ 
+                td.text-end xxx
+                td.text-end $$
                 td 
               tr
                 td 7335XX
                 td(colspan="2") Servicios
-                td xxx
-                td $ $ 
+                td.text-end xxx
+                td.text-end $$
                 td 
               tr
                 td 7345XX
                 td(colspan="2") Mantenimiento
-                td xxx
-                td $ $ 
+                td.text-end xxx
+                td.text-end $$
                 td 
               tr
                 td 24XXXX
                 td(colspan="2") Impuestos
                 td 
                 td 
-                td $ $ 
+                td.text-end $$
               tr
                 td 23XXXX
                 td(colspan="2") Retenciones
                 td 
                 td 
-                td $ $ 
+                td.text-end $$
               tr
                 td 23XXXX
                 td(colspan="2") Cuentas por Pagar
                 td 
                 td 
-                td $ $ 
+                td.text-end $$
               tr
                 td 7360XX
                 td(colspan="2") Depreciaciones
-                td xxx
-                td $ $ 
+                td.text-end xxx
+                td.text-end $$
                 td 
               tr
                 td 1592XX
                 td(colspan="2") Depreciación acumulada
                 td 
                 td 
-                td $ $ 
+                td.text-end $$
 
       div(titulo="Servicios contratados o maquila en la cuenta control de producción. Reconocimiento:")
         .tabla
@@ -400,27 +406,27 @@
               tr
                 td 74XXXX
                 td(colspan="2") Servicios contratados - maquila
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 24XXXX
                 td(colspan="2") Impuestos
                 td 
                 td 
-                td $ $ 
+                td $$
               tr
                 td 23XXXX
                 td(colspan="2") Retenciones
                 td 
                 td 
-                td $ $ 
+                td $$
               tr
                 td 23XXXX
                 td(colspan="2") Cuentas por pagar
                 td 
                 td 
-                td $ $ 
+                td $$
 
       div(titulo="Cierre o capitalización de la cuenta control de costos de producción. Reconocimiento:")
         .tabla
@@ -436,63 +442,63 @@
               tr
                 td 141005
                 td(colspan="2") Inventario PP materia prima directa
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 5196XX
                 td(colspan="2") Gasto MPD dañada
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 7198XX
                 td(colspan="2") Materia prima directa
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td.text-end $$
               tr
                 td 141010
                 td(colspan="2") Inventario PP mano obra directa
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 5196XX
                 td(colspan="2") Gasto tiempo ocioso
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 7298XX
                 td(colspan="2") Mano obra directa
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td.text-end $$
               tr
                 td 141015
                 td(colspan="2") Inventario PP CIF
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 7398XX
                 td(colspan="2") Costos indirectos de fabricación -CIF
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td.text-end $$
               tr
                 td 141020
                 td(colspan="2") Inventario PP servicio contratado - maquila
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 7498XX
                 td(colspan="2") Servicios contratados - maquila
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td.text-end $$
 
       div(titulo="Traslado de las unidades terminadas al inventario de producto terminado. Reconocimiento:")
         .tabla
@@ -508,33 +514,33 @@
               tr
                 td 1430XX
                 td(colspan="2") Inventario producto terminado
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 141005
                 td(colspan="2") Inventario PP materia prima directa
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td $$
               tr
                 td 141010
                 td(colspan="2") Inventario PP mano obra directa
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td $$
               tr
                 td 141015
                 td(colspan="2") Inventario PP CIF
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td $$
               tr
                 td 141020
                 td(colspan="2") Inventario PP servicio contratado - maquila
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td $$
 
       div(titulo="Venta del producto terminado. Reconocimiento:")
         .tabla
@@ -550,39 +556,39 @@
               tr
                 td 4120XX
                 td(colspan="2") Venta MFE
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td $$
               tr
                 td 24XXXX
                 td(colspan="2") Impuestos
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td $$
               tr
                 td 1355XX
                 td(colspan="2") Retenciones
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 1305XX
                 td(colspan="2") Deudores clientes
                 td 
-                td $ $ 
+                td.text-end $$
                 td 
               tr
                 td 1355XX
                 td(colspan="2") Retenciones ARER
                 td 
-                td $ $ 
+                td.text-end $$
                 td 
               tr
                 td 2365XX
                 td(colspan="2") CXP retenciones
                 td 
                 td 
-                td $ $ 
+                td $$
 
       div(titulo="Reconocimiento del costo de ventas")
         .tabla
@@ -598,15 +604,15 @@
               tr
                 td 6120XX
                 td(colspan="2") Costo de ventas MFE
-                td XX
-                td $ $ 
+                td.text-end XX
+                td.text-end $$
                 td 
               tr
                 td 1430
                 td(colspan="2") Inventario producto terminado
-                td XX
+                td.text-end XX
                 td 
-                td $ $ 
+                td $$
 
     p.mb-4 Con el fin de dar cumplimiento al proceso de sistema de costos por órdenes de producción, se debe recurrir a los soportes que permiten identificar cada uno de los procesos; ellos son:
 
@@ -768,9 +774,9 @@
                   td TOTAL 
                   td  
                 tr
-                  td SOLICITO
+                  td SOLICITÓ
                   td  
-                  td ENTREGO
+                  td ENTREÓ
                   td KARDEX
                   td  
                   td RECIBIDO 
@@ -883,22 +889,22 @@
               tbody
                 tr
                   th(colspan="2") PRODUCTO: EMPANADAS
-                  td(colspan="2") Funda la mantequilla en un sartén
+                  td(colspan="2").text-start Funda la mantequilla en un sartén
                 tr
                   td(rowspan="4" colspan="2")
                     .row.justify-content-center
                       .col-6
                         img(src="@/assets/curso/t1-00.svg", alt="Texto que describa la imagen")
-                  td(colspan="2") Tamice la harina y coloque en un tazón, junto con la sal y el azúcar
+                  td(colspan="2").text-start Tamice la harina y coloque en un tazón, junto con la sal y el azúcar
                 tr
-                  td(colspan="2") Agregue la mantequilla fundida
+                  td(colspan="2").text-start Agregue la mantequilla fundida
                 tr
-                  td(colspan="2") Mezcle por 8 minutos o hasta formar una masa homogénea que no se pegue
+                  td(colspan="2").text-start Mezcle por 8 minutos o hasta formar una masa homogénea que no se pegue
                 tr
-                  td(colspan="2") Deje reposar por 20 minutos
+                  td(colspan="2").text-start Deje reposar por 20 minutos
                 tr
                   th(colspan="2") INGREDIENTES
-                  td(colspan="2") Extienda con un rodillo y corte pequeños círculos con un cortador o el borde de un vaso.
+                  td(colspan="2").text-start Extienda con un rodillo y corte pequeños círculos con un cortador o el borde de un vaso.
                 tr
                   td(colspan="2") 500g de harina de trigo
                   th.dark(colspan="2") Equipo requerido: 
@@ -950,7 +956,7 @@
           tr
             th(colspan="4") HOJA DE COSTOS ESTÁNDAR UNITARIO MPD
             th(colspan="2") PRODUCCIÓN REQUERIDA
-            td 50.000
+            td.text-end 50.000
           tr
             th CONCEPTO 
             th CANTIDAD
@@ -962,33 +968,33 @@
         tbody
           tr
             td HARINA 
-            td 50
+            td.text-end 50
             td GRAMOS 
-            td 4
-            td 200
-            td 2.500.000
+            td.text-end 4
+            td.text-end 200
+            td.text-end 2.500.000
             td 10.000.000
           tr
             td ARROZ
-            td 100
+            td.text-end 100
             td GRAMOS 
-            td 4,4
-            td 440
-            td 5.000.000
+            td.text-end 4,4
+            td.text-end 440
+            td.text-end 5.000.000
             td 22.000.000
           tr
             td HUEVO 
-            td 0,25
+            td.text-end 0,25
             td UNIDAD
-            td 350
-            td 87,5
-            td 12.500
+            td.text-end 350
+            td.text-end 87,5
+            td.text-end 12.500
             td 4.375.000
           tr
             td  
             td  
             td(colspan="2") MATERIA PRIMA PROYECTADO
-            td 727,5
+            td.text-end 727,5
             td  
             td 36.375.000
 
@@ -1023,95 +1029,95 @@
           tr
             th SIMULADOR
             th PROYECCIÓN COSTO
-            th(colspan="2") MOD-MOI-(NÓMINA)
+            th(colspan="2") MOD - MOI - (NÓMINA)
         tbody
           tr
-            td.dark DÍAS AÑO
-            td 366
-            td.dark DOMINGOS Y FESTIVOS
-            td 70
+            th.dark.text-end DÍAS AÑO
+            td.text-end 366
+            th.dark.text-end DOMINGOS Y FESTIVOS
+            td.text-end 70
           tr
-            td.dark DÍAS LABORABLES
-            td 296
-            td.dark DÍAS PROMEDIO
+            th.dark.text-end DÍAS LABORABLES
+            td.text-end 296
+            th.dark.text-end DÍAS PROMEDIO
             td 24,67
           tr
-            td.dark SMLV
-            td $ 877.803
+            th.dark.text-end SMLV
+            td.text-end $877.803
             th(colspan="2" rowspan="2") PAGADO POR LA EMPRESA AL TRABAJADOR 
           tr
-            td.dark AUXILIO
-            td $ 102.854
+            th.dark.text-end AUXILIO
+            td $102.854
           tr
             th CONCEPTO
             th VALOR MES 
             th APORTES 
             th %
           tr
-            td.dark BÁSICO 
-            td $ 877.803
-            td.dark ARL
-            td 0,52%
+            th.dark.text-end BÁSICO 
+            td.text-end $877.803
+            th.dark.text-end ARL
+            td 0,52 %
           tr
-            td.dark AUXILIO
-            td $ 102.854
-            td.dark EPS
-            td 0,00%
+            th.dark.text-end AUXILIO
+            td.text-end $102.854
+            th.dark.text-end EPS
+            td 0,00 %
           tr
-            td.dark APORTES 
-            td $ 145.031
-            td.dark FP
-            td 12%
+            th.dark.text-end APORTES 
+            td.text-end $145.031
+            th.dark.text-end FP
+            td 12 %
           tr
-            td.dark PRESTACIÓN
-            td $ 214.077
-            td.dark CC
-            td 4%
+            th.dark.text-end PRESTACIÓN
+            td.text-end $214.077
+            th.dark.text-end CC
+            td 4 %
           tr
-            td.dark TOTAL MES 
-            td $ 1.339.765
-            td.dark ICBF
-            td 0,00%
+            th.dark.text-end TOTAL MES 
+            td.text-end $1.339.765
+            th.dark.text-end ICBF
+            td 0,00 %
           tr
-            td.dark DÍAS TRABAJADOS MES 
-            td 24,67
-            td.dark SENA
-            td 0,00%
+            th.dark.text-end DÍAS TRABAJADOS MES 
+            td.text-end 24,67
+            th.dark.text-end SENA
+            td 0,00 %
           tr
-            td.dark HORAS MES 
-            td 197
-            td.dark TOTAL
-            td 16,52%
+            th.dark.text-end HORAS MES 
+            td.text-end 197
+            th.dark.text-end TOTAL
+            td 16,52 %
           tr
-            td.dark VALOR HORA 
-            td $ 6.789
+            th.dark.text-end VALOR HORA 
+            td.text-end $6.789
             th PRESTACIONES 
-            th %
+            th  %
           tr
-            td.dark MINUTOS MES 
-            td $ 11.840
-            td.dark CESANTÍAS 
-            td 8,33%
+            th.dark.text-end MINUTOS MES 
+            td.text-end $11.840
+            th.dark.text-end CESANTÍAS 
+            td 8,33 %
           tr
-            td.dark VALOR MINUTO 
-            td $ 113,16
-            td.dark INTERÉS CESANTÍAS 
-            td 1,00%
+            th.dark.text-end VALOR MINUTO 
+            td.text-end $113,16
+            th.dark.text-end INTERÉS CESANTÍAS 
+            td 1,00 %
           tr
-            td.dark VALOR SEGUNDO 
-            td $ 1,89
-            td.dark PRIMA 
-            td 8,33%
+            th.dark.text-end VALOR SEGUNDO 
+            td.text-end $1,89
+            th.dark.text-end PRIMA 
+            td 8,33 %
           tr
+            th.dark.text-end
             td  
-            td  
-            td.dark VACACIONES 
-            td 4,17%
+            th.dark.text-end VACACIONES 
+            td 4,17 %
           tr
+            th.dark.text-end
             td  
-            td  
-            td.dark TOTAL 
-            td 21,83%
+            th.dark.text-end TOTAL 
+            td 21,83 %
 
     p.mb-5 A continuación, se aplica la proyección de la mano de obra directa requerida para el proceso de producción mensual, estableciendo tiempos por cada proceso, costo de la mano de obra directa y número de operarios requeridos para la producción.
 
@@ -1134,29 +1140,29 @@
         tbody
           tr
             td PREPARADO
-            td 2
+            td.text-end 2
             td MINUTO
-            td $ 127,43
-            td $ 254,86
-            td $ 100.000
-            td $ 12.743.000
+            td.text-end $127,43
+            td.text-end $254,86
+            td.text-end $100.000
+            td.text-end $12.743.000
             td 8
           tr
             td FRITO
-            td 4
+            td.text-end 4
             td MINUTO
-            td $ 113,16
-            td $ 452,64
-            td $ 200.000
-            td $ 22.632.000
+            td.text-end $113,16
+            td.text-end $452,64
+            td.text-end $200.000
+            td.text-end $22.632.000
             td 17
           tr
             td  
             td  
             td(colspan="2") MATERIA PRIMA PROYECTADO
-            td $ 707,5
-            td $ 300.000
-            td $ 35.375.000
+            td.text-end $707,5
+            td.text-end $300.000
+            td.text-end $35.375.000
             td 25
 
     p.mb-5 Para el presupuesto de los costos indirectos de fabricación, se establecen los costos variables unitarios.
@@ -1176,42 +1182,42 @@
           tr
             td AGUA 
             td M3
-            td $ 30.000
-            td 5.000
-            td $ 6,00
+            td.text-end $30.000
+            td.text-end 5.000
+            td $6,00
           tr
             td SAL 
             td KILO 
-            td $ 1.800
-            td 4.000
-            td $ 0,45
+            td.text-end $1.800
+            td.text-end 4.000
+            td $0,45
           tr
             td CEBOLLA
             td LIBRA 
-            td $ 900
-            td 800
-            td $ 1,13
+            td.text-end $900
+            td.text-end 800
+            td $1,13
           tr
             td CILANTRO 
             td ATAO 
-            td $ 1.200
-            td 900
-            td $ 1,33
+            td.text-end $1.200
+            td.text-end 900
+            td $1,33
           tr
             td AJÍ
             td LIBRA 
-            td $ 700
-            td 1.500
-            td $ 0,47
+            td.text-end $700
+            td.text-end 1.500
+            td $0,47
           tr
             td EMPAQUE
             td PAQUETE X 2
-            td $ 2.000
-            td 400
-            td $ 5,00
+            td.text-end $2.000
+            td.text-end 400
+            td $5,00
           tr
             td.dark.text-end(colspan="4") TOTAL COSTO VARIABLE UNITARIO
-            td $ 14,38
+            td $14,38
 
     p.mb-5 Se procede a calcular los Costos Indirectos de Fabricación (CIF) fijos de la mano de obra indirecta, según la nómina de presupuesto, teniendo en cuenta toda la normatividad legal vigente.
 
@@ -1226,23 +1232,23 @@
         tbody
           tr
             td SUPERVISOR
-            td $ 3.458.800,00
+            td $3.458.800,00
           tr
             td ASEADORA
-            td $ 1.339.765,00
+            td $1.339.765,00
           tr
             td TODERO
-            td $ 1.339.765,00
+            td $1.339.765,00
         thead
           tr
             th.text-end TOTAL
-            th.text-start $ 6.138.330,00
+            th.text-end $6.138.330,00
           tr
             th.text-end UNIDAD DE PRODUCCIÓN PROMEDIO MES 
-            th.text-start 50.000,00
+            th.text-end 50.000,00
           tr
             th.text-end CUENTA CIF FIJO UNITARIO MOI
-            th.text-start $ 122,77
+            th.text-end $122,77
 
     p.mb-5 También debemos presupuestar los otros Costos Indirectos de Fabricación (CIF) fijos de producción, como arriendos, servicios públicos, mantenimiento, depreciación, impuestos, seguros, entre otros, que se puedan presentar, según lo requieran en la planta de producción.
 
@@ -1257,29 +1263,29 @@
         tbody
           tr
             td ARRIENDO 
-            td $ 2.000.000,00
+            td $2.000.000,00
           tr
             td SERVICIOS PÚBLICOS 
-            td $ 1.500.000,00
+            td $1.500.000,00
           tr
             td DEPRECIACIÓN 
-            td $ 54.167,00
+            td $54.167,00
           tr
             td MANTENIMIENTO 
-            td $ 500.000,00
+            td $500.000,00
           tr
             td VARIOS 
-            td  $ 0
+            td  $0
         thead
           tr
             th.text-end TOTAL 
-            th.text-start $ 4.054.167,00
+            th.text-end $4.054.167,00
           tr
             th.text-end UNIDADES DE PRODUCCIÓN PROMEDIO MES 
-            th.text-start 50.000
+            th.text-end 50.000
           tr
             th.text-end  CTO UNITARIO CIT VARIOS
-            th.text-start $ 81,08
+            th.text-end $81,08
 
     p.mb-5 Ahora, es momento de establecer el costo unitario presupuestado
 
@@ -1298,28 +1304,28 @@
             tbody
               tr
                 td MPD
-                td $ 727,5
+                td $727,5
               tr
                 td MOD
-                td $ 707,5
+                td $707,5
               tr
                 td COSTO PRIMO 
-                td $ 1.435,00
+                td $1.435,00
               tr
                 td CIF VAR MPI-INSUMOS
-                td $ 14,38
+                td $14,38
               tr
                 td CIF MOI
-                td $ 122,77
+                td $122,77
               tr
                 td CIF VARIOS
-                td $ 81,08
+                td $81,08
               tr
                 td CIF TOTALES 
-                td $ 218,22
+                td $218,22
               tr
                 th.text-end COSTO UNITARIO TOTAL
-                th.text-start $ 1.653,22
+                th.text-end $1.653,22
 
       .col-6.col-lg-3
         img(src="@/assets/curso/t2-03.svg", alt="Texto que describa la imagen")
@@ -1339,19 +1345,19 @@
         tbody
           tr
             td MPD
-            td $ 100.000
-            td $ 25.000
-            td $ 728
+            td.text-end $100.000
+            td.text-end $25.000
+            td.text-end $728
           tr
             td MOD
-            td $ 20.000
-            td $ 130.000
-            td $ 708
+            td.text-end $20.000
+            td.text-end $130.000
+            td $708
           tr
             td COSTO PRIMO
-            td $ 120.000
-            td $ 155.000
-            td $ 1.435
+            td.text-end $120.000
+            td.text-end $155.000
+            td $1.435
           tr
             td UNIDADES PRODUCCIÓN 
             td  
@@ -1370,7 +1376,7 @@
         thead
           tr
             th.text-end(colspan="3") TASA PREDETERMINADA DE CIF =====>
-            th.text-start 15,21%
+            th.text-end 15,21 %
 
     .tabla.w-small.mb-5
       table
@@ -1385,33 +1391,33 @@
         tbody
           tr
             td(colspan="2") MPD
-            td $ 727,5
+            td $727,5
           tr
             td(colspan="2") MOD
-            td $ 707,5
+            td $707,5
           tr
             td(colspan="2") COSTO PRIMO
-            td $ 1.435,00
+            td $1.435,00
           tr
             td(colspan="2") CIF VAR MPI-INSUMOS
-            td $ 14,38
+            td $14,38
           tr
             td(colspan="2") CIF MOI
-            td $ 122,77
+            td $122,77
           tr
             td(colspan="2") CIF VARIOS
-            td $ 81,08
+            td $81,08
           tr
             td(colspan="2") CIF TOTALES
-            td $ 218,22
+            td $218,22
         thead
           tr
             th.text-end(colspan="2") COSTO UNITARIO TOTAL
-            th.text-start $ 1.653,22
+            th.text-start $1.653,22
           tr
             th.text-end(rowspan="3")  TASA CIF =
             th.text-end CIF TOTALES
-            th.text-start(rowspan="3") 15,21%
+            th.text-start(rowspan="3") 15,21 %
           tr
             th.text-end COSTO PRIMO
 
@@ -1432,49 +1438,49 @@
         tbody
           tr
             td SALARIOS 
-            td $ 6.138.330
-            td $ 7.000.000
-            td $ 3.000.000
+            td.text-end $6.138.330
+            td.text-end $7.000.000
+            td $3.000.000
           tr
             td ARRIENDO
-            td $ 2.000.000
-            td $ 600.000
+            td.text-end $2.000.000
+            td.text-end $600.000
             td  
           tr
             td DEPRECIACIÓN 
-            td $ 54.167
-            td $ 40.000
-            td $ 30.000
+            td.text-end $54.167
+            td.text-end $40.000
+            td $30.000
           tr
             td SERVICIOS 
-            td $ 1.500.000
-            td $ 350.000
-            td $ 750.000
+            td.text-end $1.500.000
+            td.text-end $350.000
+            td $750.000
           tr
             td MANTENIMIENTO 
-            td $ 500.000
-            td $ 600.000
-            td $ 30.000
+            td.text-end $500.000
+            td.text-end $600.000
+            td $30.000
           tr
             td IMPUESTO 
             td  
-            td $ 70.000
-            td $ 300.000
+            td.text-end $70.000
+            td $300.000
           tr
             td SEGUROS 
             td  
-            td $ 80.000
-            td $ 40.000
+            td.text-end $80.000
+            td $40.000
           tr
             td TOTAL 
-            td $ 10.192.497
-            td $ 8.740.000
-            td $ 4.150.000
+            td.text-end $10.192.497
+            td.text-end $8.740.000
+            td $4.150.000
           tr
             th.text-end UNIDAD PRODUCCIÓN MES 
-            th.text-start 50.000
+            th.text-end 50.000
             th.text-end TOTAL 
-            th.text-start $ 23.082.497
+            th.text-end $23.082.497
 
     p.mb-5 Ahora, se realiza el presupuesto del precio de venta unitario (PVU); para hacerlo hay varias fórmulas, para este ejemplo se aplica la fórmula de margen de contribución (MC), según la política de precios al costo de producción unitario, para obtener:
 
@@ -1487,16 +1493,16 @@
                 th(colspan="3") PVU = CTO + MC 
                 th VENTA =
                 th COSTO +
-                th MC 80%
+                th MC 80 %
             tbody
               tr
                 td(colspan="3") PRECIO DE VENTA UNITARIO 
-                td 3.000,00
-                td 1.653,22
+                td.text-end 3.000,00
+                td.text-end 1.653,22
                 td 1.322,58
         
 
-    p.mb-5 El precio de venta de $ 3.000 se ha aproximado al 100.
+    p.mb-5 El precio de venta de $3.000 se ha aproximado al 100.
 
     h3.mb-5 Compra y consumo de materia prima directa
 
@@ -1513,7 +1519,7 @@
             th.light(colspan="2") NIT 860200
             th.light RRI
             th.light(colspan="2") FECHA EMISIÓN
-            th.light 1/9/20
+            th.light 1/09/2020
           tr
             th.light
             th.light
@@ -1544,24 +1550,24 @@
           tr
             td 2341
             td HARINA EL LOBO 
-            td 2.5
+            td.text-end 2.500
             td KILO 
-            td $ 4.00 
-            td $ 10.000.000
+            td.text-end $4.000
+            td $10.000.000
           tr
             td 3265
             td ARROZ DIANA
-            td 5
+            td.text-end 5.000
             td KILO
-            td $ 4.40 
-            td $ 22.000.000
+            td.text-end $4.400
+            td $22.000.000
           tr
             td 5566
             td HUEVOS ORO
-            td 12.5
+            td.text-end 12.500
             td UNIDAD
-            td $ 350 
-            td $ 4.375.000
+            td.text-end $350 
+            td $4.375.000
           tr
             td
             td
@@ -1582,35 +1588,35 @@
             td
             td.dark.text-end SUBTOTAL 1
             td
-            td $ 36.375.000
+            td $36.375.000
           tr
             td
             td
             td
             td.dark.text-end DECTO COM
-            td 2%
-            td $ 727.50 
+            td.text-end 2 %
+            td $727.500
           tr
             td
             td
             td
             td.dark.text-end SUBTOTAL 2
             td
-            td $ 35.647.500
+            td $35.647.500
           tr
             td
             td
             td
             td.dark.text-end IVA/*1
-            td 19%
-            td $ 6.080.000
+            td.text-end 19 %
+            td $6.080.000
           tr
             td
             td
             td
             td.dark.text-end RFRTA/*1
-            td 2,50%
-            td $ 891.19 
+            td.text-end 2,50 %
+            td $891.190
           tr
             td
             td
@@ -1623,15 +1629,15 @@
             td
             td
             td.dark.text-end RFICA/*1
-            td 1104%
-            td $ 393.55 
+            td.text-end 1,104 %
+            td $393.548
           tr
             td
             td
             td
             td.dark.text-end TOTAL
             td
-            td $ 40.442.764
+            td $40.442.764
 
     p.mb-5 Reconocimiento compra materia prima directa
 
@@ -1649,32 +1655,32 @@
             td 140505
             td(colspan="2") INVENTARIO DE MATERIA PRIMA
             td 1001
-            td $ 35.647.500
+            td.text-end $35.647.500
             td  
           tr
             td 240806
             td(colspan="2") IVA DESCONTABLE 
             td  
-            td $ 6.080.000
+            td.text-end $6.080.000
             td  
           tr
             td 236540
             td(colspan="2") RETEFTE RTA COMPRAS 
             td  
             td  
-            td $ 891.188
+            td $891.188
           tr
             td 236811
             td(colspan="2") RETEFTE ICA COMPRAS 
             td  
             td  
-            td $ 393.548
+            td $393.548
           tr
             td 220505
             td(colspan="2") PROVEEDORES 
             td  
             td  
-            td $ 40.442.764
+            td $40.442.764
 
     h3.mb-5 Actualización Kardex
 
@@ -1695,12 +1701,12 @@
                 td PRODUCTO 
                 td(colspan="2") HARINA EL LOBO
                 td CANTIDAD MÍNIMA 
-                td 50.000
+                td.text-end 50.000
                 td CANTIDAD MÁXIMA 
                 td 2.000.000
               tr
-                td PROVEEDORES 
-                td(colspan="6") DISTRIBUIDORA TOTAL LTDA
+                td(colspan="2") PROVEEDORES 
+                td(colspan="5") DISTRIBUIDORA TOTAL LTDA
                 td UNIDAD
                 td GRAMO 
             thead
@@ -1724,13 +1730,13 @@
               tr
                 td 1/09/2020
                 td FC0154 DISTRIB TOTAL 
-                td 2.500.000
-                td $ 9.800.000
+                td.text-end 2.500.000
+                td.text-end $9.800.000
                 td  
                 td  
-                td 2.500.000,00
-                td $ 3,92
-                td $ 9.800.000,00
+                td.text-end 2.500.000,00
+                td.text-end $3,92
+                td $9.800.000,00
               tr
                 td  
                 td  
@@ -1775,12 +1781,12 @@
                 td PRODUCTO 
                 td(colspan="2") ARROZ DIANA
                 td CANTIDAD MÍNIMA 
-                td 1.000.000
+                td.text-end 1.000.000
                 td CANTIDAD MÁXIMA 
-                td 6.000.000
+                td.text-end 6.000.000
               tr
-                td PROVEEDORES 
-                td(colspan="6") DISTRIBUIDORA TOTAL LTDA
+                td(colspan="2") PROVEEDORES 
+                td(colspan="5") DISTRIBUIDORA TOTAL LTDA
                 td UNIDAD
                 td GRAMO
             thead
@@ -1804,13 +1810,13 @@
               tr
                 td 29/05/1906
                 td FC0154 DISTRIB TOTAL
-                td 5.000.000
-                td $ 21.560.000
+                td.text-end 5.000.000
+                td.text-end $21.560.000
                 td 
                 td 
-                td 5.000.000,00
-                td $ 4,31
-                td $ 21.560.000,00
+                td.text-end 5.000.000,00
+                td.text-end $4,31
+                td $21.560.000,00
               tr
                 td 
                 td 
@@ -1859,8 +1865,8 @@
                 td CANTIDAD MÁXIMA 
                 td  
               tr
-                td PROVEEDORES 
-                td(colspan="6") DISTRIBUIDORA TOTAL LTDA
+                td(colspan="2") PROVEEDORES 
+                td(colspan="5") DISTRIBUIDORA TOTAL LTDA
                 td UNIDAD
                 td GRAMO
             thead
@@ -1884,13 +1890,13 @@
               tr
                 td 1/09/2020
                 td FC0154 DISTRIB TOTAL 
-                td 12.500
-                td $ 4.287.500
+                td.text-end 12.500
+                td.text-end $4.287.500
                 td  
                 td  
-                td 12.500,00
-                td $ 343.00
-                td $ 4.287.500,00
+                td.text-end 12.500,00
+                td.text-end $343.00
+                td $4.287.500,00
               tr
                 td 
                 td 
@@ -1955,27 +1961,27 @@
           tr
             td 2341
             td HARINA EL LOBO
-            td 2.500.000
-            td $ 3,92
-            td $ 9.800.000
+            td.text-end 2.500.000
+            td.text-end $3,92
+            td $9.800.000
           tr
             td 3265
             td ARROZ DIANA
-            td 5.000.000
-            td $ 4,31
-            td $ 21.560.000
+            td.text-end 5.000.000
+            td.text-end $4,31
+            td $21.560.000
           tr
             td 5566
             td HUEVOS ORO 
-            td 12.500,00
-            td $ 343.00
-            td $ 4.287.500
+            td.text-end 12.500,00
+            td.text-end $343.00
+            td $4.287.500
           tr
             td  
             td  
             td  
             td.dark.text-end TOTAL
-            td.dark $ 35.647.500
+            td.dark $35.647.500
           tr
             td  
             td  
@@ -2001,12 +2007,12 @@
                 td PRODUCTO
                 td(colspan="2") HARINA EL LOBO
                 td CANTIDAD MÍNIMA
-                td 50.000
+                td.text-end 50.000
                 td CANTIDAD MÁXIMA
-                td 2.000.000
+                td.text-end 2.000.000
               tr
-                td PROVEEDORES
-                td(colspan="6") DISTRIBUIDORA TOTAL LTDA
+                td(colspan="2") PROVEEDORES
+                td(colspan="5") DISTRIBUIDORA TOTAL LTDA
                 td UNIDAD
                 td GRAMO
             thead
@@ -2030,20 +2036,20 @@
               tr
                 td 1/09/2020
                 td FC0154 DISTRIB TOTAL
-                td 2.500.000
-                td $ 9.800.000
+                td.text-end 2.500.000
+                td.text-end $9.800.000
                 td 
                 td 
-                td 2.500.000,00
-                td $ 3,92
-                td $ 9.800.000,00
+                td.text-end 2.500.000,00
+                td.text-end $3,92
+                td $9.800.000,00
               tr
                 td 1/09/2020
                 td REM 01 PRODUCCIÓN
                 td 
                 td 
-                td 2.500.000
-                td $ 9.800.000
+                td.text-end 2.500.000
+                td.text-end $9.800.000
                 td -
                 td 
                 td -
@@ -2080,12 +2086,12 @@
                 td PRODUCTO 
                 td(colspan="2") ARROZ DIANA
                 td CANTIDAD MÍNIMA 
-                td 1.000.000
+                td.text-end 1.000.000
                 td CANTIDAD MÁXIMA 
-                td 6.000.000
+                td.text-end 6.000.000
               tr
-                td PROVEEDORES 
-                td(colspan="6") DISTRIBUIDORA TOTAL LTDA
+                td(colspan="2") PROVEEDORES 
+                td(colspan="5") DISTRIBUIDORA TOTAL LTDA
                 td UNIDAD
                 td GRAMO
             thead
@@ -2109,20 +2115,20 @@
               tr
                 td 29/05/1906
                 td FC0154 DISTRIB TOTAL 
-                td 5.000.000
-                td $ 21.560.000
-                td  
-                td  
-                td 5.000.000,00
-                td $ 4,31
-                td $ 21.560.000,00
+                td.text-end 5.000.000
+                td.text-end $21.560.000
+                td.text-end  
+                td.text-end  
+                td.text-end 5.000.000,00
+                td.text-end $4,31
+                td $21.560.000,00
               tr
                 td 1/09/2020
                 td REM 01 PRODUCCIÓN
                 td  
                 td  
-                td 5.000.000
-                td $ 21.560.000
+                td.text-end 5.000.000
+                td.text-end $21.560.000
                 td -
                 td  
                 td -
@@ -2160,12 +2166,12 @@
                 td PRODUCTO 
                 td(colspan="2") HUEVOS ORO
                 td CANTIDAD MÍNIMA 
-                td 1.000.000
+                td.text-end 1.000.000
                 td CANTIDAD MÁXIMA 
-                td 6.000.000
+                td.text-end 6.000.000
               tr
-                td PROVEEDORES 
-                td(colspan="6") DISTRIBUIDORA TOTAL LTDA
+                td(colspan="2") PROVEEDORES 
+                td(colspan="5") DISTRIBUIDORA TOTAL LTDA
                 td UNIDAD
                 td GRAMO
             thead
@@ -2189,20 +2195,20 @@
               tr
                 td 1/09/2020
                 td FC0154 DISTRIB TOTAL 
-                td 12.500
-                td $ 4.287.500
-                td  
-                td  
-                td 12.500,00
-                td $ 343
-                td $ 4.287.500,00
+                td.text-end 12.500
+                td.text-end $4.287.500
+                td.text-end  
+                td.text-end  
+                td.text-end 12.500,00
+                td.text-end $343
+                td $4.287.500,00
               tr
                 td 1/09/2020
                 td REM 01 PRODUCCIÓN
                 td  
                 td  
-                td 12.500
-                td $ 4.287.500
+                td.text-end 12.500
+                td.text-end $4.287.500
                 td -
                 td  
                 td -
@@ -2284,29 +2290,29 @@
             tr
               td 234
               td DIAZ JUANA
-              td 11
-              td 1
-              td $ 1.000.000
-              td 30
-              td $ 1.000.000
-              td $ -
-              td $ -
-              td $ 102.854
-              td $ -
-              td $ 1.102.854
+              td.text-end 11
+              td.text-end 1
+              td.text-end $1.000.000
+              td.text-end 30
+              td.text-end $1.000.000
+              td.text-end $
+              td.text-end $
+              td.text-end $102.854
+              td.text-end $
+              td.text-end $1.102.854
             tr
               td 432
               td RICO ADAN
-              td 20
-              td 1
-              td $ 2.500.000
-              td 30
-              td $ 2.500.000
-              td $ -
-              td 0
-              td $ -
-              td 0
-              td $ 2.500.000
+              td.text-end 20
+              td.text-end 1
+              td.text-end $2.500.000
+              td.text-end 30
+              td.text-end $2.500.000
+              td.text-end $
+              td.text-end 0
+              td.text-end $
+              td.text-end 0
+              td.text-end $2.500.000
 
       .tabla(titulo="Sección de deducciones y neto a pagar")
         table
@@ -2349,25 +2355,25 @@
               th RTE FUENTE
           tbody
             tr
-              td $ 40.000
-              td $ 40.000
-              td  
-              td $ -
-              td $ 20.000
-              td $ -
-              td $ -
-              td $ 100.000
-              td $ 1.002.854
+              td.text-end $40.000
+              td.text-end $40.000
+              td.text-end  
+              td.text-end $
+              td.text-end $20.000
+              td.text-end $
+              td.text-end $
+              td.text-end $100.000
+              td.text-end $1.002.854
             tr
-              td $ 100.000
-              td $ 100.000
-              td  
-              td $ -
-              td $ 50.000
-              td  
-              td  
-              td $ 250.000
-              td $ 2.250.000
+              td.text-end $100.000
+              td.text-end $100.000
+              td.text-end  
+              td.text-end $
+              td.text-end $50.000
+              td.text-end  
+              td.text-end  
+              td.text-end $250.000
+              td.text-end $2.250.000
 
       .tabla(titulo="Sección de prestaciones sociales")
         table
@@ -2398,22 +2404,22 @@
           tbody
             tr
               td BASE
-              td 8,33%
-              td 1%
-              td 8,33%
-              td 4,17%
+              td.text-end 8,33 %
+              td.text-end 1 %
+              td.text-end 8,33 %
+              td.text-end 4,17 %
             tr
               td  
-              td $ 91.868
-              td $ 11.029
-              td $ 91.868
-              td $ 41.700
+              td.text-end $91.868
+              td.text-end $11.029
+              td.text-end $91.868
+              td.text-end $41.700
             tr
               td  
-              td $ 208.250
-              td $ 25.000
-              td $ 208.250
-              td $ 104.250
+              td.text-end $208.250
+              td.text-end $25.000
+              td.text-end $208.250
+              td $104.250
 
       .tabla(titulo="Sección de aportes a seguridad social y parafiscales")
         table
@@ -2439,7 +2445,7 @@
             tr
               th(colspan="7") 4. APORTES PATRONALES 
             tr
-              th % ARL
+              th  % ARL
               th VALOR ARL
               th EPS
               th FP
@@ -2450,27 +2456,27 @@
             tr
               td  
               td  
-              td 8,50%
-              td 12%
-              td 4%
-              td 3%
-              td 2%
+              td.text-end 8,50 %
+              td.text-end 12 %
+              td.text-end 4 %
+              td.text-end 3 %
+              td.text-end 2 %
             tr
-              td 0,52%
-              td $ 5.220
-              td $       -
-              td $ 120.000
-              td $ 40.000
-              td 0
-              td $       -
+              td.text-end 0,52 %
+              td.text-end $5.220
+              td.text-end $
+              td.text-end $120.000
+              td.text-end $40.000
+              td.text-end 0
+              td.text-end $
             tr
-              td 0,52%
-              td $ 13.050
-              td $       -
-              td $ 300.000
-              td $ 100.000
-              td 0
-              td $       -
+              td.text-end 0,52 %
+              td.text-end $13.050
+              td.text-end $
+              td.text-end $300.000
+              td.text-end $100.000
+              td.text-end 0
+              td.text-end $
 
 
     p.mb-5 En los costos de la mano de obra directa, se requiere establecer el promedio de días laborados teniendo en cuenta que los dominicales y festivos no son laborales, por tanto, a los días del año se le deben restar los dominicales y festivos y a ese resultado lo dividimos entre 12 para obtener los días laborados promedio mes. Luego se toma el total pagado al trabajador, donde incluimos lo devengado más la carga prestacional, los aportes a seguridad social y parafiscales a cargo de la empresa, y el resultado obtenido se divide entre los días promedio trabajados en el mes, y así se obtiene el costo día; el resultado obtenido lo dividimos en 8 horas y obtenemos el valor de la hora hombre, y este resultado lo dividimos entre 60 minutos para obtener el valor minuto de mano de obra directa.
@@ -2495,17 +2501,17 @@
             th VALOR MINUTO
         tbody
           tr
-            td $ 401.684
-            td $ 1.504.538
-            td $ 62.689
-            td $ 7.836
-            td $ 130,6
+            td.text-end $401.684
+            td.text-end $1.504.538
+            td.text-end $62.689
+            td.text-end $7.836
+            td.text-end $130,6
           tr
-            td $ 958.800
-            td $ 3.458.800
-            td $ 144.117
-            td $ 18.015
-            td $ 300,24
+            td.text-end $958.800
+            td.text-end $3.458.800
+            td.text-end $144.117
+            td.text-end $18.015
+            td.text-end $300,24
 
     h3.mb-5 Liquidación de la mano de obra directa e indirecta
 
@@ -2518,81 +2524,81 @@
             td ZZ
             td 11
             td 1
-            td $ 877.657
+            td.text-end $877.657
             td 30
-            td $ 877.657
+            td.text-end $877.657
           tr
             td 47
             td SS
             td 11
             td 1
-            td $ 877.657
+            td.text-end $877.657
             td 30
-            td $ 877.657
+            td.text-end $877.657
           tr
             td 49
             td UU
             td 11
             td 1
-            td $ 877.657
+            td.text-end $877.657
             td 30
-            td $ 877.657
+            td.text-end $877.657
           tr
             td 51
             td PP
             td 11
             td 1
-            td $ 877.657
+            td.text-end $877.657
             td 30
-            td $ 877.657
+            td.text-end $877.657
           tr
             td 53
             td RR
             td 11
             td 1
-            td $ 877.657
+            td.text-end $877.657
             td 30
-            td $ 877.657
+            td.text-end $877.657
           tr
             td 55
             td MM
             td 11
             td 1
-            td $ 877.657
+            td.text-end $877.657
             td 30
-            td $ 877.657
+            td.text-end $877.657
           tr
             td 57
             td NN
             td 11
             td 1
-            td $ 877.657
+            td.text-end $877.657
             td 30
-            td $ 877.657
+            td.text-end $877.657
           tr
             td 59
             td LL
             td 11
             td 1
-            td $ 877.657
+            td.text-end $877.657
             td 30
-            td $ 877.657
+            td.text-end $877.657
           tr
             td 61
             td ÑÑ
             td 11
             td 1
-            td $ 877.657
+            td.text-end $877.657
             td 30
-            td $ 877.657
+            td.text-end $877.657
           tr
             td 63
             td HH
             td 11
             td 1
-            td $ 877.657
+            td.text-end $877.657
             td 30
-            td $ 877.657
+            td.text-end $877.657
 
     h3.mb-5 Reconocimiento de la mano de obra directa de 1 operario
 
@@ -2697,236 +2703,236 @@
             td 720506
             td SUELDOS 
             td 1001
-            td $ 1.000.000
+            td.text-end $1.000.000
             td  
           tr
             td 720527
             td AUXILIO DE TRANSPORTE
             td 1001
-            td $ 102.854
+            td.text-end $102.854
             td  
           tr
             td 237005
             td APORTES A EPS
             td 1001
             td  
-            td $ 40.000
+            td $40.000
           tr
             td 237045
             td FONDOS 
             td 1001
             td  
-            td $ 40.000
+            td $40.000
           tr
             td 136595
             td OTROS
             td 1001
             td  
-            td $ 20.000
+            td $20.000
           tr
             td 250505
             td SALARIOS POR PAGAR
             td 1001
             td  
-            td $ 1.002.854
+            td $1.002.854
           tr
             td 720530
             td CESANTÍAS 
             td 1001
-            td $ 91.868
+            td.text-end $91.868
             td  
           tr
             td 251005
             td LEY LABORAL ANTERIOR
             td 1001
             td  
-            td $ 91.868
+            td $91.868
           tr
             td 720533
             td INTERESES SOBRE CESANTÍAS 
             td 1001
-            td $ 11.029
+            td.text-end $11.029
             td  
           tr
             td 251505
             td INTERESES SOBRE CESANTÍAS 
             td 1001
             td  
-            td $ 11.029
+            td $11.029
           tr
             td 720536
             td PRIMA DE SERVICIOS
             td 1001
-            td $ 91.868
+            td.text-end $91.868
             td  
           tr
             td 252005
             td PRIMA DE SERVICIOS
             td 1001
             td  
-            td $ 91.868
+            td $91.868
           tr
             td 720539
             td VACACIONES 
             td 1001
-            td $ 41.700
+            td.text-end $41.700
             td  
           tr
             td 252505
             td VACACIONES CONSOLIDADAS
             td 1001
             td  
-            td $ 41.700
+            td $41.700
           tr
             td 720568
             td APORTES A ADMINISTRADORAS
             td 1001
-            td $ 5.220
+            td.text-end $5.220
             td  
           tr
             td 237006
             td APORTES A ADMINISTRADORAS
             td 1001
             td  
-            td $ 5.220
+            td $5.220
           tr
             td 720570
             td APORTES A FONDOS 
             td 1001
-            td $ 120.000
+            td.text-end $120.000
             td  
           tr
             td 237045
             td FONDOS 
             td 1001
             td  
-            td $ 120.000
+            td $120.000
           tr
             td 720572
             td APORTES CAJAS 
             td 1001
-            td $ 40.000
+            td.text-end $40.000
             td  
           tr
             td 237010
             td APORTES ICBF SENA CAJAS
             td 1001
             td  
-            td $ 40.000
+            td $40.000
           tr
             td 720506
             td SUELDOS 
             td 1001
-            td $ 1.000.000
+            td.text-end $1.000.000
             td  
           tr
             td 720627
             td AUXILIO DE TRANSPORTE
             td 1001
-            td $ 102.854
+            td.text-end $102.854
             td  
           tr
             td 237005
             td APORTES A EPS
             td 1001
             td  
-            td $ 40.000
+            td $40.000
           tr
             td 237045
             td FONDOS 
             td 1001
             td  
-            td $ 40.000
+            td $40.000
           tr
             td 250505
             td SALARIOS POR PAGAR
             td 1001
             td  
-            td $ 1.022.854
+            td $1.022.854
           tr
             td 720530
             td CESANTÍAS 
             td 1001
-            td $ 91.868
+            td.text-end $91.868
             td  
           tr
             td 251005
             td LEY LABORAL ANTERIOR
             td 1001
             td  
-            td $ 91.868
+            td $91.868
           tr
             td 720533
             td INTERESES SOBRE CESANTÍAS 
             td 1001
-            td $ 11.029
+            td.text-end $11.029
             td  
           tr
             td 251505
             td INTERESES SOBRE CESANTÍAS
             td 1001
             td  
-            td $ 11.029
+            td $11.029
           tr
             td 720536
             td PRIMA DE SERVICIOS
             td 1001
-            td $ 91.868
+            td.text-end $91.868
             td  
           tr
             td 252005
             td PRIMA DE SERVICIOS
             td 1001
             td  
-            td $ 91.868
+            td $91.868
           tr
             td 720539
             td VACACIONES 
             td 1001
-            td $ 41.700
+            td.text-end $41.700
             td  
           tr
             td 252505
             td VACACIONES CONSOLIDADAS
             td 1001
             td  
-            td $ 41.700
+            td $41.700
           tr
             td 720568
             td APORTES A ADMINISTRADORAS 
             td 1001
-            td $ 5.220
+            td.text-end $5.220
             td  
           tr
             td 2347006
             td APORTES A ADMINISTRADORAS
             td 1001
             td  
-            td $ 5.220
+            td $5.220
           tr
             td 720570
             td APORTES A FONDOS
             td 1001
-            td $ 120.000
+            td.text-end $120.000
             td 
           tr
             td 237045
             td FONDOS
             td 1001
             td 
-            td $ 120.000
+            td $120.000
           tr
             td 720572
             td APORTES CAJAS
             td 1001
-            td $ 40.000
+            td.text-end $40.000
             td 
           tr
             td 237010
             td APORTES ICBF SENA CAJAS
             td 1001
             td 
-            td $ 40.000
+            td $40.000
 
     p.mb-5 Posteriormente, el departamento de contabilidad, con la información del control de tiempo que le suministra el jefe de producción, registrará en cada orden de producción el costo de la mano de obra directa realmente trabajada al momento de capitalizar la cuenta control de producción al inventario de productos en proceso.
       br
@@ -2968,44 +2974,44 @@
             td SAL 
             td 30
             td KILO 
-            td $ 1.800,00
-            td $ 54.000
+            td.text-end $1.800,00
+            td $54.000
           tr
             td CEBOLLA
             td 300
             td LIBRA 
-            td $ 900,00
-            td $ 270.000
+            td.text-end $900,00
+            td $270.000
           tr
             td CILANTRO 
             td 150
             td ATAO
-            td $ 1.200,00
-            td $ 180.000
+            td.text-end $1.200,00
+            td $180.000
           tr
             td AJÍ
             td 70
             td LIBRA 
-            td $ 900,00
-            td $ 63.000
+            td.text-end $900,00
+            td $63.000
           tr
             td  
             td  
             td  
             th.dark.text-end SUBTOTAL 
-            td $ 567.000
+            td $567.000
           tr
             td  
             td  
             td  
             th.dark.text-end IVA
-            td $ -
+            td $
           tr
             td  
             td  
             td  
             th.dark.text-end TOTAL 
-            td $ 567.000
+            td $567.000
 
     h3.mb-5 Reconocimiento compra de insumos
 
@@ -3025,14 +3031,14 @@
             td 730101
             td INSUMO MPI
             td 22
-            td $ 576.000
+            td.text-end $576.000
             td  
           tr
             td 220505
             td PROVEEDORES 
             td 22
             td  
-            td $ 576.000
+            td $576.000
 
     h3.mb-5 Reconocimiento mano de obra indirecta
 
@@ -3055,7 +3061,7 @@
             td 1
             td 432
             td RICO ADAN 
-            td RRI
+            td.text-center RRI
           tr
             td 2
             td 30/09/2020
@@ -3063,7 +3069,7 @@
             td 1
             td 860220
             td NUEVA EPS 
-            td RRI
+            td.text-center RRI
           tr
             td 3
             td 30/09/2020
@@ -3071,7 +3077,7 @@
             td 1
             td 860220
             td COLPENSION
-            td RRI
+            td.text-center RRI
           tr
             td 4
             td 30/09/2020
@@ -3079,7 +3085,7 @@
             td 1
             td 432
             td RICO ADAN 
-            td RRI
+            td.text-center RRI
           tr
             td 5
             td 30/09/2020
@@ -3087,7 +3093,7 @@
             td 1
             td 432
             td RICO ADAN 
-            td RRI
+            td.text-center RRI
           tr
             td 6
             td 30/09/2020
@@ -3095,7 +3101,7 @@
             td 1
             td 432
             td RICO ADAN 
-            td RRI
+            td.text-center RRI
           tr
             td 7
             td 30/09/2020
@@ -3103,7 +3109,7 @@
             td 1
             td 432
             td RICO ADAN 
-            td RRI
+            td.text-center RRI
           tr
             td 8
             td 30/09/2020
@@ -3111,7 +3117,7 @@
             td 1
             td 432
             td RICO ADAN 
-            td RRI
+            td.text-center RRI
           tr
             td 9
             td 30/09/2020
@@ -3119,7 +3125,7 @@
             td 1
             td 432
             td RICO ADAN 
-            td RRI
+            td.text-center RRI
 
     .tabla.mb-5
       table
@@ -3137,230 +3143,230 @@
             td 720506
             td SUELDOS 
             td 1001
-            td $ 2.500.000
+            td.text-end $2.500.000
             td  
           tr
             td 237005
             td APORTES A EPS
             td 1001
             td  
-            td $ 100.000
+            td.text-end $100.000
           tr
             td 237045
             td FONDOS 
             td 1001
             td  
-            td $ 100.000
+            td.text-end $100.000
           tr
             td 136595
             td OTROS
             td 1001
             td  
-            td $ 50.000
+            td.text-end $50.000
           tr
             td 250505
             td SALARIOS POR PAGAR
             td 1001
             td  
-            td $ 2.250.000
+            td.text-end $2.250.000
           tr
             td 720530
             td CESANTÍAS 
             td 1001
-            td $ 208.250
+            td.text-end $208.250
             td  
           tr
             td 251005
             td LEY LABORAL ANTERIOR
             td 1001
             td  
-            td $ 208.250
+            td.text-end $208.250
           tr
             td 720533
             td INTERESES SOBRE CESANTÍAS
             td 1001
-            td $ 25.000
+            td.text-end $25.000
             td  
           tr
             td 251505
             td INTERESES SOBRE CESANTÍAS 
             td 1001
             td  
-            td $ 25.000
+            td.text-end $25.000
           tr
             td 720536
             td PRIMA DE SERVICIOS
             td 1001
-            td $ 208.250
+            td.text-end $208.250
             td  
           tr
             td 252005
             td PRIMA DE SERVICIOS
             td 1001
             td  
-            td $ 208.250
+            td.text-end $208.250
           tr
             td 720539
             td VACACIONES 
             td 1001
-            td $ 104.250
+            td.text-end $104.250
             td  
           tr
             td 252505
             td VACACIONES CONSOLIDADAS
             td 1001
             td  
-            td $ 104.250
+            td.text-end $104.250
           tr
             td 720568
             td APORTES A ARP
             td 1001
-            td $ 13.050
+            td.text-end $13.050
             td  
           tr
             td 237006
             td APORTES A ARP
             td 1001
             td  
-            td $ 13.050
+            td.text-end $13.050
           tr
             td 720570
             td APORTES A FONDOS 
             td 1001
-            td $ 300.000
+            td.text-end $300.000
             td  
           tr
             td 237045
             td FONDOS 
             td 1001
             td  
-            td $ 300.000
+            td.text-end $300.000
           tr
             td 720572
             td APORTES CAJAS 
             td 1001
-            td $ 100.000
+            td.text-end $100.000
             td  
           tr
             td 237010
             td APORTES ICBF SENA CAJAS
             td 1001
             td  
-            td $ 100.000
+            td.text-end $100.000
           tr
             td 720506
             td SUELDOS 
             td 1001
-            td $ 877.657
+            td.text-end $877.657
             td  
           tr
             td 720627
             td AUXILIO DE TRANSPORTE
             td 1001
-            td $ 102.854
+            td.text-end $102.854
             td  
           tr
             td 237005
             td APORTES A EPS
             td 1001
             td  
-            td $ 35.106
+            td.text-end $35.106
           tr
             td 237045
             td FONDOS 
             td 1001
             td  
-            td $ 35.106
+            td.text-end $35.106
           tr
             td 250505
             td SALARIOS POR PAGAR
             td 1001
             td  
-            td $ 910.298
+            td.text-end $910.298
           tr
             td 720530
             td CESANTÍAS 
             td 1001
-            td $ 81.677
+            td.text-end $81.677
             td  
           tr
             td 251005
             td LEY LABORAL ANTERIOR
             td 1001
             td  
-            td $ 81.677
+            td.text-end $81.677
           tr
             td 720533
             td INTERESES SOBRE CESANTÍAS
             td 1001
-            td $ 9.805
+            td.text-end $9.805
             td  
           tr
             td 251505
             td INTERESES SOBRE CESANTÍAS 
             td 1001
             td  
-            td $ 9.805
+            td.text-end $9.805
           tr
             td 720536
             td PRIMA DE SERVICIOS
             td 1001
-            td $ 81.677
+            td.text-end $81.677
             td  
           tr
             td 252005
             td PRIMA DE SERVICIOS
             td 1001
             td  
-            td $ 81.677
+            td.text-end $81.677
           tr
             td 720539
             td VACACIONES 
             td 1001
-            td $ 36.598
+            td.text-end $36.598
             td  
           tr
             td 252505
             td VACACIONES CONSOLIDADAS
             td 1001
             td  
-            td $ 36.598
+            td.text-end $36.598
           tr
             td 720568
             td APORTES A ADMINISTRADORAS
             td 1001
-            td $ 4.581
+            td.text-end $4.581
             td  
           tr
             td 234706
             td APORTES A ADMINISTRADORAS
             td 1001
             td  
-            td $ 4.581
+            td.text-end $4.581
           tr
             td 720570
             td APORTES A FONDOS 
             td 1001
-            td $ 105.319
+            td.text-end $105.319
             td  
           tr
             td 237045
             td FONDOS 
             td 1001
             td  
-            td $ 105.319
+            td.text-end $105.319
           tr
             td 720572
             td APORTES CAJAS 
             td 1001
-            td $ 35.106
+            td.text-end $35.106
             td  
           tr
             td 237010
             td APORTES ICBF SENA CAJAS
             td 1001
             td  
-            td $ 35.106
+            td.text-end $35.106
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md.mb-4.mb-md-0
@@ -3405,26 +3411,26 @@
             td 141005
             td PRODUCTOS EN PROCESO 
             td 1001
-            td $ 35.647.500
+            td.text-end $35.647.500
             td 
           tr
             td 719598
             td CAPITALIZACIÓN
             td 1001
             td 
-            td $ 35.647.500
+            td.text-end $35.647.500
           tr
             td 141010
             td PRODUCTOS EN PROCESO
             td 1001
-            td $ 33.400.689
+            td.text-end $33.400.689
             td 
           tr
             td 729598
             td CAPITALIZACIÓN
             td 1001
             td 
-            td $ 33.400.689
+            td.text-end $33.400.689
 
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-md-3.mb-4.mb-md-0
@@ -3445,20 +3451,20 @@
             tbody
               tr
                 td MATERIA PRIMA DIRECTA 
-                td $ 35.647.500
+                td $35.647.500
               tr
                 td MANO DE OBRA DIRECTA 
-                td $ 33.400.689
+                td $33.400.689
               tr
                 td COSTO PRIMA
-                td $ 69.048.189
+                td $69.048.189
               tr
                 td TASA CIF PREDETERMINADA
-                td 15,12%
+                td 15,12 %
             thead
               tr
                 th.dark.text-end CIF PREDETERMINADO
-                th.dark.text-start $ 10.440.086
+                th.dark.text-end $10.440.086
 
     p.mb-5 Ahora, se trasladan las unidades terminadas del inventario de productos en proceso al inventario de productos terminados, utilizando el CIF predeterminado.
 
@@ -3477,24 +3483,24 @@
             td PRODUCTOS EN PROCESO 
             td 1001
             td  
-            td $ 35.647.500
+            td $35.647.500
           tr
             td 141010
             td PRODUCTOS EN PROCESO 
             td 1001
-            td $ 33.400.689
+            td.text-end $33.400.689
             td  
           tr
             td 141015
             td PRODUCTOS EN PROCESO 
             td 1001
             td  
-            td $ 10.440.086
+            td.text-end $10.440.086
           tr
             td 143014
             td PRODUCTOS EN PROCESO 
             td  
-            td $ 79.488.275
+            td.text-end $79.488.275
             td  
 
     p.mb-5 Registro en el Kardex para el control de existencias de cada producto.
@@ -3575,13 +3581,13 @@
           tr
             td 30/09/2020
             td EA01 PRODUCCIÓN
-            td 50.000
-            td $ 79.488.500
+            td.text-end 50.000
+            td.text-end $79.488.500
             td  
             td  
-            td 50.000,00
-            td $ 1.589,77
-            td $ 79.488.500,00
+            td.text-end 50.000,00
+            td.text-end $1.589,77
+            td.text-end $79.488.500,00
           tr
             td  
             td  
@@ -3651,66 +3657,66 @@
           tr
             td 6677
             td EMPANADAS 
-            td 40.000
+            td.text-end 40.000
             td UNIDAD
-            td $ 3.000
-            td $ 120.000.000
+            td.text-end $3.000
+            td $120.000.000
           tr
             td  
             td  
-            td SUBTOTAL 1
+            td.dark.text-end SUBTOTAL 1
             td  
             td  
-            td $ 120.000.000
+            td $120.000.000
           tr
             td  
             td  
-            td DECTO COM
+            td.dark.text-end DECTO COM
             td  
             td  
             td  
           tr
             td  
             td  
-            td SUBTOTAL 2
+            td.dark.text-end SUBTOTAL 2
             td  
             td  
-            td $ 120.000.000
+            td $120.000.000
           tr
             td  
             td  
-            td IVA/*1
+            td.dark.text-end IVA/*1
             td  
             td  
             td -
           tr
             td  
             td  
-            td RFRTA/*1
+            td.dark.text-end RFRTA/*1
             td  
-            td 2,50%
-            td $ 3.000.000
+            td.text-end 2,50 %
+            td $3.000.000
           tr
             td  
             td  
-            td RFIVA/*2
+            td.dark.text-end RFIVA/*2
             td  
             td  
             td -
           tr
             td  
             td  
-            td RFICA/*1
+            td.dark.text-end RFICA/*1
             td  
-            td 1,10%
-            td $ 1.324.800
+            td.text-end 1,10 %
+            td $1.324.800
           tr
-            td ARERO,40%
+            td ARERO,40 %
             td 480000
-            td TOTAL 
+            td.dark.text-end TOTAL 
             td  
             td  
-            td $ 115.675.200
+            td $115.675.200
 
 
     p.mb-5 Se realiza el reconocimiento de la venta.
@@ -3730,37 +3736,37 @@
             td ELABORACIÓN OTROS PROD. ALIMENTICIOS 
             td 22
             td  
-            td $ 120.000.000
+            td $120.000.000
           tr
             td 135515
             td RETENCIÓN EN LA FUENTE 
             td 22
-            td $ 3.000.000
+            td.text-end $3.000.000
             td  
           tr
             td 135518
             td ICA VENTA 9,66*100
             td 22
-            td $ 1.324.800
+            td.text-end $1.324.800
             td  
           tr
             td 130505
             td NACIONALES 
             td 22
-            td $ 115.675.200
+            td.text-end $115.675.200
             td  
           tr
             td 135519
             td AUTORRETENCIÓN 
             td 22
-            td $ 480.000
+            td.text-end $480.000
             td  
           tr
             td 236575
             td AUTORRETENCIÓN
             td 22
             td  
-            td $ 480.000
+            td.text-end $480.000
 
     p.mb-5 Se reconoce contablemente el costo de la mercancía vendida y la salida de inventarios.
 
@@ -3778,14 +3784,14 @@
             td 612014
             td ELABORACIÓN OTROS PROD. ALIMENTICIOS
             td 22
-            td $ 63.967.600
+            td.text-end $63.967.600
             td 
           tr
             td 143014
             td PRODUCTOS ALIMENTICIOS
             td 22
             td 
-            td $ 63.967.600
+            td $63.967.600
 
     p.mb-5 Reconocimiento de las facturas de servicios públicos pendientes para poder cerrar la cuenta de control de costos indirectos de fabricación.
 
@@ -3818,25 +3824,25 @@
               tbody
                 tr
                   td(colspan="4") SERVICIO DE ENERGÍA DEL 01 AL 30 DE SEPTIEMBRE 2020
-                  td $ 400.000
+                  td $400.000
                 tr
                   td(colspan="4")
-                  td $ 
+                  td $
                 tr
                   td(colspan="4")
-                  td $ 
+                  td $
                 tr
                   td(colspan="3")
                   th.dark.text-end SUBTOTAL 
-                  td $ 400.000
+                  td $400.000
                 tr
                   td(colspan="3")
                   th.dark.text-end IVA
-                  td $ -
+                  td $
                 tr
                   td(colspan="3")
                   th.dark.text-end TOTAL 
-                  td $ 400.000
+                  td $400.000
 
           .tabla
             table
@@ -3854,14 +3860,14 @@
                   td 733530
                   td SERVICIO ENERGÍA 
                   td 22
-                  td $ 400.000
+                  td.text-end $400.000
                   td  
                 tr
                   td 233550
                   td SERVICIOS PÚBLICOS 
                   td 22
                   td  
-                  td $ 400.000
+                  td $400.000
             
         div
           h4.mb-3 Servicio de acueducto y alcantarillado
@@ -3890,25 +3896,25 @@
               tbody
                 tr
                   td(colspan="4") SERVICIO DE ACUEDUCTO Y ALCANTARILLADO DEL 01 AL 30 DE SEPTIEMBRE 2020
-                  td $ 300.000
+                  td $300.000
                 tr
                   td(colspan="4")
-                  td $ 
+                  td $
                 tr
                   td(colspan="4")
-                  td $ 
+                  td $
                 tr
                   td(colspan="3")
                   th.dark.text-end SUBTOTAL
-                  td $ 300.000
+                  td $300.000
                 tr
                   td(colspan="3")
                   th.dark.text-end IVA
-                  td $ -
+                  td $
                 tr
                   td(colspan="3")
                   th.dark.text-end TOTAL 
-                  td $ 300.000
+                  td $300.000
 
           .tabla
             table
@@ -3926,14 +3932,14 @@
                   td 733525
                   td SERVICIO ACUEDUCTO
                   td 22
-                  td $ 300.000
+                  td.text-end $300.000
                   td 
                 tr
                   td 233550
                   td SERVICIOS PÚBLICOS
                   td 22
                   td 
-                  td $ 300.000
+                  td $300.000
 
         div
           h4.mb-3 Servicio gas natural
@@ -3962,25 +3968,25 @@
               tbody
                 tr
                   td(colspan="4") SERVICIO DE GAS NATURAL DEL 01 AL 30 DE SEPTIEMBRE 2020
-                  td $ 600.000
+                  td $600.000
                 tr
                   td(colspan="4")
-                  td $ 
+                  td 
                 tr
                   td(colspan="4")
-                  td $ 
+                  td 
                 tr
                   td(colspan="3")
                   th.dark.text-end SUBTOTAL 
-                  td $ 600.000
+                  td $600.000
                 tr
                   td(colspan="3")
                   th.dark.text-end IVA
-                  td $  -
+                  td $ -
                 tr
                   td(colspan="3")
                   th.dark.text-end TOTAL 
-                  td $ 600.000
+                  td $600.000
 
 
           .tabla
@@ -3999,14 +4005,14 @@
                   td 733555
                   td SERVICIO GAS
                   td 22
-                  td $ 600.000
+                  td.text-end $600.000
                   td 
                 tr
                   td 233550
                   td SERVICIOS PÚBLICOS
                   td 22
                   td 
-                  td $ 600.000
+                  td $600.000
 
         div
           h4.mb-3 Servicio de teléfono
@@ -4035,25 +4041,25 @@
               tbody
                 tr
                   td(colspan="4") SERVICIO DE TELÉFONO DEL 01 AL 30 DE SEPTIEMBRE 2020
-                  td $ 200.000
+                  td $200.000
                 tr
                   td(colspan="4")
-                  td $ 
+                  td $
                 tr
                   td(colspan="4")
-                  td $ 
+                  td $
                 tr
                   td(colspan="3")
                   th.dark.text-end SUBTOTAL 
-                  td $ 200.000
+                  td $200.000
                 tr
                   td(colspan="3")
                   th.dark.text-end IVA
-                  td $ 38.000
+                  td $38.000
                 tr
                   td(colspan="3")
                   th.dark.text-end TOTAL 
-                  td $ 200.000
+                  td $238.000
 
 
           .tabla
@@ -4072,14 +4078,14 @@
                   td 733535
                   td SERVICIO TELÉFONO
                   td 22
-                  td $ 200.000
+                  td.text-end $200.000
                   td 
                 tr
                   td 233550
                   td SERVICIOS PÚBLICOS
                   td 22
                   td 
-                  td $ 200.000
+                  td $200.000
 
     p.mb-5 Reconocimiento del cierre de la cuenta control de costos indirectos de fabricación (CIF) al producto de productos en proceso.
 
@@ -4097,14 +4103,14 @@
             td 141015
             td PRODUCTOS EN PROCESO
             td 1001
-            td $ 10.760.115
+            td.text-end $10.760.115
             td 
           tr
             td 739598
             td CAPITALIZACIÓN 
             td 1001
             td 
-            td $ 10.760.115
+            td $10.760.115
 
     p.mb-5 Es momento de analizar la variación entre el CIF aplicado y el CIF real, para realizar el ajuste proporcional respectivo entre el saldo de los inventarios de producto terminado y el costo de ventas, según sea el caso.
       br
@@ -4128,21 +4134,46 @@
             td(colspan="3") PRODUCTOS EN PROCESO 
             td 1001
             td 
-            td $ 10.911.247
+            td.text-end $10.911.247
           tr
             td(colspan="3") CAPITALIZACIÓN CIF
             td 141015
             td(colspan="3") PRODUCTOS EN PROCESO 
             td 1001
-            td $ 10.760.115
+            td.text-end $10.760.115
             td 
           tr
             td(colspan="3") CAPITALIZACIÓN SERV CONTRATO
             td 141020
             td(colspan="3") PRODUCTOS EN PROCESO 
             td 1001
-            td $ 100.000
+            td.text-end $100.000
             td
+
+    .row.justify-content-center.mb-5
+      .col-lg-9
+        .tabla.w-auto
+          table.tableizer-table
+            tbody
+              tr.tableizer-firstrow
+                td(colspan="3") CIF REALES
+                td 
+                td 
+                td 
+                td(colspan="2") $10.860.115
+              tr
+                td(colspan="3") TASA CIF APLICADA
+                td 
+                td 
+                td 
+                td(colspan="2") $10.911.247
+              tr
+                td(colspan="3") MAYOR CIF APLICADO
+                td 
+                td 
+                td 
+                td(colspan="2") $51.132
+
 
     p.mb-5 A continuación, se generan los auxiliares de producto terminado y el costo de venta para establecer la proporcionalidad de distribución de la variación. En el ejemplo, sería:
 
@@ -4162,14 +4193,14 @@
             td 143014
             td PRODUCTOS AL.
             td 1001
-            td $ 79.959.436
+            td.text-end $79.959.436
             td 
           tr
             td COSTO VTA EMPANADAS
             td 612014
             td ELABORACIÓN
             td 22
-            td $ 63.967.600
+            td.text-end $63.967.600
             td 
           tr
             td COSTO VTA EMPANADAS
@@ -4177,7 +4208,7 @@
             td PRODUCTOS AL.
             td 22
             td 
-            td $ 63.967.600
+            td.text-end $63.967.600
 
     .tabla.mb-5
       table
@@ -4187,19 +4218,19 @@
         tbody
           tr
             td(colspan="2") SALDO INVENT PRODUCTO TERMINADO
-            td $ 15.991.836
-            td 20%
-            td $ 10.226
+            td.text-end $15.991.836
+            td.text-end 20 %
+            td.text-end $10.226
           tr
             td(colspan="2") COSTO DE VENTA MFE
-            td $ 63.967.600
-            td 80%
-            td $ 40.906
+            td.text-end $63.967.600
+            td.text-end 80 %
+            td.text-end $40.906
           tr
             td(colspan="2") TOTAL INVENT DE PRODUCTO TERMINADO
-            td $ 79.959.436
+            td.text-end $79.959.436
             td 
-            td $ 51.132
+            td $51.132
 
     p.mb-5 Una vez realizada la distribución del mayor costo indirecto de fabricación (CIF) aplicado, se realiza el respectivo reconocimiento.
 
@@ -4217,20 +4248,20 @@
             td 141015
             td PRODUCTOS EN P
             td 1001
-            td $ 51.132
+            td.text-end $51.132
             td 
           tr
             td 143014
             td PRODUCTOS ALIM
             td 1001
             td 
-            td $ 10.226
+            td $10.226
           tr
             td 612014
             td ELABORACIÓN DE
             td 1001
             td 
-            td $ 40.906
+            td $40.906
 
     p.mb-5 De esta forma se cumple el proceso del sistema de costos por órdenes de producción.
 
@@ -4244,7 +4275,7 @@
           
           p.mb-3 Los costos por procesos es otro de los sistemas utilizados en la industria, en el cual se desarrolla la producción a gran escala, estandarizada y mecanizada, lo que facilita el montaje de líneas de producción para cada uno de los procesos, permitiendo la acumulación de cada uno de los elementos del costo por cada proceso requerido. Para la asignación de los costos se tendrá en cuenta la producción por departamentos o centros de costos.
 
-          a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/costos_por_procesos.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 
@@ -4282,7 +4313,9 @@
     h3.mb-5 Final
 
     p.mb-5 Se evalúan y determinan los costos; se concluye el proceso de acuerdo con el informe de producción; y se establecen o sugieren acciones que mejoren los procesos de producción, ya sea en tiempo o producto.  
-
+      br
+      br
+      | Ejemplo: 
     .cajon.color-primario.p-4.mb-5
       .row.justify-content-center
         .col-md-6.mb-4.mb-md-0
@@ -4291,30 +4324,32 @@
           ul.lista-ul--color.ps-4.mb-0
             li 
               i.fas.fa-chevron-right
-              | Materiales $ 4.000.000 
+              | Materiales $4.000.000 
             li 
               i.fas.fa-chevron-right
-              | Mano de obra $ 2.000.000 
+              | Mano de obra $2.000.000 
             li.mb-0
               i.fas.fa-chevron-right
-              | Costos indirectos de fabricación $ 500.000
+              | Costos indirectos de fabricación $500.000
 
     p.mb-5 A finalizar el mes de mayo, se terminaron 2.000 unidades y se trasladaron al departamento 2.
       br
       br
-      | Los costos por procesos buscan determinar qué parte de los $ 4.000.000 de materiales, $ 2.000.000 de mano de obra y $ 500.000 de costos indirectos de fabricación, se aplicaron a las 2.000 unidades producidas y transferidas al departamento 2. Por lo tanto, cada departamento deberá preparar un informe sobre el costo de producción.
+      | Los costos por procesos buscan determinar qué parte de los $4.000.000 de materiales, $2.000.000 de mano de obra y $500.000 de costos indirectos de fabricación, se aplicaron a las 2.000 unidades producidas y transferidas al departamento 2. Por lo tanto, cada departamento deberá preparar un informe sobre el costo de producción.
       br
       br
       | Este sistema de costos es apropiado para las entidades que están estructuradas por departamentos, como la ensambladora de vehículos.
 
     h3.mb-5 Costos por actividades o ABC
 
-    p.mb-5 Los sistemas de costos ABC (Activity Based Costing) permiten la distribución de los costos indirectos de fabricación (CIF) de acuerdo con las actividades realizadas. Es un método en el que se asignan costos primero a las actividades, luego a los productos.
+    p.mb-5 Los sistemas de costos ABC 
+      i (Activity Based Costing) 
+      | permiten la distribución de los costos indirectos de fabricación (CIF) de acuerdo con las actividades realizadas. Es un método en el que se asignan costos primero a las actividades, luego a los productos.
 
-    .row.justify-content-center.mb-5
-      .col-6.mb-4.mb-md-0
+    .row.justify-content-center.justify-content-md-around.mb-5
+      .col-6.col-md-4.mb-4.mb-md-0
         img(src='@/assets/curso/t5-03.svg', alt='Texto que describa la imagen')
-      .col-md
+      .col-md-6
         p.mb-0 El sistema de costos ABC es una herramienta de carácter estratégico con la cual se pueden sustentar las decisiones gerenciales y se fundamenta en los aportes teóricos de Porter (1998) y lo establecido por Miller y Vollman (1985). Por otro lado, han existido diversos autores que han tratado de mencionar las características de los sistemas de costos basados en actividades; no obstante, todos giran alrededor de un común denominador: los sistemas de costos basados en actividades, que propenden por la división de las organizaciones en las diferentes actividades necesarias para una mejor asignación de los costos indirectos de fabricación a los productos o servicios característicos del objeto social de la empresa.
           br
           br
@@ -4325,8 +4360,8 @@
         
     h3.mb-5 Objetivos de costos ABC
 
-    .row.justify-content-center.mb-5
-      .col-md
+    .row.justify-content-center.justify-content-md-around.mb-5
+      .col-md-6
         ul.lista-ul--color.ps-4.mb-4
           li 
             i.fas.fa-chevron-right
@@ -4385,7 +4420,7 @@
             i.fas.fa-chevron-right
             | Planeación
 
-      .col-6.mb-4.mb-md-0
+      .col-6.col-md-4.mb-4.mb-md-0
         img(src='@/assets/curso/t5-04.svg', alt='Texto que describa la imagen')
         
     p.mb-5 En la siguiente gráfica se representan los recursos directos e indirectos en los costos ABC.
@@ -4413,11 +4448,11 @@
             tbody
               tr
                 td FALDAS
-                td 5.000
+                td.text-end 5.000
                 td UNIDADES
               tr
                 td CAMISAS
-                td 8.000
+                td.text-end 8.000
                 td UNIDADES
 
     LineaTiempoD.color-primario.mb-5
@@ -4433,11 +4468,11 @@
               tbody
                 tr
                   td FALDAS
-                  td $ 5.000,00
+                  td.text-end $5.000,00
                   td PESOS
                 tr
                   td CAMISAS
-                  td $ 6.000,00
+                  td.text-end $6.000,00
                   td PESOS
 
         .col-md-4
@@ -4459,11 +4494,11 @@
               tbody
                 tr
                   td FALDAS
-                  td $ 5.000,00
+                  td.text-end $1.800,00
                   td PESOS
                 tr
                   td CAMISAS
-                  td $ 6.000,00
+                  td.text-end $1.700,00
                   td PESOS
 
 
@@ -4511,7 +4546,7 @@
         .cajon.color-acento-contenido.p-4
           p.mb-0 Para la elaboración del producto, los costos indirectos (CI) de la empresa corresponden a servicios públicos, arrendamientos, depreciación maquinaria y equipo, entre otros.
 
-    p.mb-5 Los costos indirectos de fabricación del mes corresponden a: $ 40.000.000
+    p.mb-5 Los costos indirectos de fabricación del mes corresponden a: $40.000.000
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -4529,14 +4564,14 @@
         tbody
           tr
             td FALDAS
-            td 5.000
-            td $ 5.000,00
-            td $ 1.800,00
+            td.text-end 5.000
+            td.text-end $5.000,00
+            td.text-end $1.800,00
           tr
             td CAMISAS
-            td 8.000
-            td $ 6.000,00
-            td $ 1.700,00
+            td.text-end 8.000
+            td.text-end $6.000,00
+            td.text-end $1.700,00
     
     p.mb-5.text-center 13.000 TOTAL UNIDADES PRODUCIDAS (TUP)
 
@@ -4547,28 +4582,26 @@
 
     p.mb-5 Costo indirecto de producción (CIP)
 
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .cajon.color-primario.p-4
+    .text-center
+      .cajon.color-primario.d-inline-block.p-4.mb-5
+        .d-flex.align-items-center.justify-content-center.mb-4
+          .flex-shrink-1.me-3
+            h4.mb-0 C.I.P =
+          .divicion
+            .divicion__top.px-3.py-1 
+              h4.mb-0 Costos indirectos
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 Total unidades producidas
 
-          .d-flex.align-items-center.justify-content-center.mb-4
-            .flex-shrink-1.me-3
-              h4.mb-0 C.I.P =
-            .divicion
-              .divicion__top.px-3.py-1 
-                h4.mb-0 Costos indirectos
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 Total unidades producidas
-
-          .d-flex.align-items-center.justify-content-center
-            .flex-shrink-1.me-3
-              h4.mb-0 C.I.P =
-            .divicion.me-3
-              .divicion__top.px-3.py-1
-                h4.mb-0 $ 40.000.000
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 13.000
-            h4.mb-0 = $ 3.076,92
+        .d-flex.align-items-center.justify-content-center
+          .flex-shrink-1.me-3
+            h4.mb-0 C.I.P =
+          .divicion.me-3
+            .divicion__top.px-1.py-1
+              h4.mb-0 $40.000.000.00
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 13.000
+          h4.mb-0 = $3.076,92
 
     p.mb-5 Cédula método de unidades producidas
 
@@ -4584,16 +4617,16 @@
         tbody
           tr
             td FALDAS
-            td $ 5.000
-            td $ 1.800,00
-            td $ 3.077
-            td $ 9.876,92
+            td.text-end $5.000
+            td.text-end $1.800,00
+            td.text-end $3.077
+            td.text-end $9.876,92
           tr
             td CAMISAS
-            td $ 6.000
-            td $ 1.700,00
-            td $ 3.077
-            td $ 10.776,92
+            td.text-end $6.000
+            td.text-end $1.700,00
+            td.text-end $3.077
+            td.text-end $10.776,92
 
     p.mb-5 Cédula método del costo de materia prima
 
@@ -4608,49 +4641,48 @@
         tbody
           tr
             td FALDAS
-            td 5.000
-            td $ 5.000
-            td $ 25.000.000
+            td.text-end 5.000
+            td.text-end $5.000
+            td.text-end $25.000.000
           tr
             td CAMISAS
-            td 8.000
-            td $ 6.000
-            td $ 48.000.000
+            td.text-end 8.000
+            td.text-end $6.000
+            td.text-end $48.000.000
           tr
             td 
             td 
             th.dark.text-end TOTAL 
-            td $ 73.000.000
+            td $73.000.000
 
     .row.justify-content-center.mb-5
       .col-lg-6
         .cajon.color-acento-contenido.p-4
-          p.mb-0 El costo total de la materia prima (MP) es de $ 15.000. Se asigna una proporción entre el costo indirecto (CI) y el total de las unidades producidas.
+          p.mb-0 El costo total de la materia prima (MP) es de $15.000. Se asigna una proporción entre el costo indirecto (CI) y el total de las unidades producidas.
 
     p.mb-5 Costo total de materia prima (CTMP)
 
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .cajon.color-primario.p-4
+    .text-center.mb-5
+      .cajon.color-primario.d-inline-block.p-4
 
-          .d-flex.align-items-center.justify-content-center.mb-4
-            .flex-shrink-1.me-3
-              h4.mb-0 C.I.MP =
-            .divicion
-              .divicion__top.px-3.py-1 
-                h4.mb-0 Costos indirectos
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 Costo total materia prima (CTMP)
+        .d-flex.align-items-center.justify-content-center.mb-4
+          .flex-shrink-1.me-3
+            h4.mb-0 C.I.MP =
+          .divicion
+            .divicion__top.px-3.py-1 
+              h4.mb-0 Costos indirectos
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 Costo total<br>materia prima (CTMP)
 
-          .d-flex.align-items-center.justify-content-center
-            .flex-shrink-1.me-3
-              h4.mb-0 C.I.MP =
-            .divicion.me-3
-              .divicion__top.px-3.py-1
-                h4.mb-0 $ 40.000.000
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 73.000
-            h4.mb-0 = $ 0,5479
+        .d-flex.align-items-center.justify-content-center
+          .flex-shrink-1.me-3
+            h4.mb-0 C.I.MP =
+          .divicion.me-3
+            .divicion__top.px-1.py-1
+              h4.mb-0 $40.000.000.00
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 73.000
+          h4.mb-0 = $0,5479
 
     .tabla.mb-2
       table
@@ -4664,18 +4696,18 @@
         tbody
           tr
             td FALDAS
-            td $ 5.000
-            td $ 1.800,00
-            td $ 2.739,73
-            td $ 9.539,73
+            td.text-end $5.000
+            td.text-end $1.800,00
+            td.text-end $2.739,73
+            td.text-end $9.539,73
           tr
             td CAMISAS
-            td $ 6.000
-            td $ 1.700,00
-            td $ 3.287,67
-            td $ 10.987,67
+            td.text-end $6.000
+            td.text-end $1.700,00
+            td.text-end $3.287,67
+            td.text-end $10.987,67
 
-    p.text-center.mb-5 El $ 0,5479 corresponde al costo de materia prima por unidad.
+    p.text-center.mb-5 El $0,5479 corresponde al costo de materia prima por unidad.
 
     p.mb-5 Cédula método de horas hombre.
 
@@ -4690,47 +4722,47 @@
         tbody
           tr
             td FALDAS
-            td 5.000
-            td $ 0,50
-            td $ 2.500
+            td.text-end 5.000
+            td.text-end $0,50
+            td $2.500
           tr
             td CAMISAS
-            td 8.000
-            td $ 1,00
-            td $ 8.000
+            td.text-end 8.000
+            td.text-end $1,00
+            td $8.000
           tr
             td 
             td 
             th.dark.text-end TOTAL 
-            td $ 10.500
+            td $10.500
 
     .row.justify-content-center.mb-5
       .col-lg-6
         .cajon.color-acento-contenido.p-4
-          p.mb-0 El costo total de la materia prima es de $ 10,250, para lo cual se determina la proporción entre los costos indirectos (CI) y el total de horas hombre usadas.
+          p.mb-0 El costo total de la materia prima es de $10,250, para lo cual se determina la proporción entre los costos indirectos (CI) y el total de horas hombre usadas.
 
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .cajon.color-primario.p-4
 
-          .d-flex.align-items-center.justify-content-center.mb-4
-            .flex-shrink-1.me-3
-              h4.mb-0 CTHH =
-            .divicion
-              .divicion__top.px-3.py-1 
-                h4.mb-0 Costos indirectos
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 Total horas hombre
+    .text-center.mb-5
+      .cajon.color-primario.d-inline-block.p-4
 
-          .d-flex.align-items-center.justify-content-center
-            .flex-shrink-1.me-3
-              h4.mb-0 CTHH =
-            .divicion.me-3
-              .divicion__top.px-3.py-1
-                h4.mb-0 $ 40.000.000
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 10.500
-            h4.mb-0 = $ 3.809,52
+        .d-flex.align-items-center.justify-content-center.mb-4
+          .flex-shrink-1.me-3
+            h4.mb-0 CTHH =
+          .divicion
+            .divicion__top.px-3.py-1 
+              h4.mb-0 Costos indirectos
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 Total horas hombre
+
+        .d-flex.align-items-center.justify-content-center
+          .flex-shrink-1.me-3
+            h4.mb-0 CTHH =
+          .divicion.me-3
+            .divicion__top.px-1.py-1
+              h4.mb-0 $40.000.000.00
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 10.500
+          h4.mb-0 = $3.809,52
 
     .tabla.mb-5
       table
@@ -4745,18 +4777,18 @@
         tbody
           tr
             td FALDAS
-            td $ 5.000
-            td $ 1.800,00
-            td $ 0,50
-            td $ 3.809,52
-            td $ 8.704,76
+            td.text-end $5.000
+            td.text-end $1.800,00
+            td.text-end $0,50
+            td.text-end $3.809,52
+            td.text-end $8.704,76
           tr
             td CAMISAS
-            td $ 6.000
-            td $ 1.700,00
-            td $ 1,00
-            td $ 3.809,52
-            td $ 11.509,52
+            td.text-end $6.000
+            td.text-end $1.700,00
+            td.text-end $1,00
+            td.text-end $3.809,52
+            td.text-end $11.509,52
 
     p.mb-5 Cédula método de horas máquina.
 
@@ -4771,47 +4803,45 @@
         tbody
           tr
             td FALDAS
-            td 5.000 
-            td $ 0,5
-            td $ 2.500
+            td.text-end 5.000 
+            td.text-end $0,5
+            td $2.500
           tr
             td CAMISAS
-            td 8.000 
-            td $ 1,0
-            td $ 8.000
+            td.text-end 8.000 
+            td.text-end $1,0
+            td $8.000
           tr
             td 
             td 
             th.dark.text-end TOTAL 
-            td $ 10.500
+            td $10.500
 
     .row.justify-content-center.mb-5
       .col-lg-6
         .cajon.color-acento-contenido.p-4
           p.mb-0 Para hallar la proporción que le corresponde al costo horas máquina, se toman los costos indirectos y se dividen en costo horas máquina.
 
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .cajon.color-primario.p-4
+    .text-center.mb-5
+      .cajon.color-primario.d-inline-block.p-4
+        .d-flex.align-items-center.justify-content-center.mb-4
+          .flex-shrink-1.me-3
+            h4.mb-0 CTHM =
+          .divicion
+            .divicion__top.px-3.py-1 
+              h4.mb-0 Costos indirectos
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 Total horas máquina
 
-          .d-flex.align-items-center.justify-content-center.mb-4
-            .flex-shrink-1.me-3
-              h4.mb-0 CTHM =
-            .divicion
-              .divicion__top.px-3.py-1 
-                h4.mb-0 Costos indirectos
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 Total horas máquina
-
-          .d-flex.align-items-center.justify-content-center
-            .flex-shrink-1.me-3
-              h4.mb-0 CTHM =
-            .divicion.me-3
-              .divicion__top.px-3.py-1
-                h4.mb-0 $ 40.000.000
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 10.500
-            h4.mb-0 = $ 3.809,52
+        .d-flex.align-items-center.justify-content-center
+          .flex-shrink-1.me-3
+            h4.mb-0 CTHM =
+          .divicion.me-3
+            .divicion__top.px-1.py-1
+              h4.mb-0 $40.000.000.00
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 10.500
+          h4.mb-0 = $3.809,52
 
     .tabla.mb-5
       table
@@ -4825,16 +4855,16 @@
         tbody
           tr
             td FALDAS
-            td $ 5.000
-            td $ 1.800,00
-            td $ 0,5
-            td $ 3.809,52
+            td.text-end $5.000
+            td.text-end $1.800,00
+            td.text-end $0,5
+            td.text-end $3.809,52
           tr
             td CAMISAS
-            td $ 6.000
-            td $ 1.700,00
-            td $ 1,0
-            td $ 3.809,52
+            td.text-end $6.000
+            td.text-end $1.700,00
+            td.text-end $1,0
+            td.text-end $3.809,52
 
     p.mb-5 Cédula método del costo de mano de obra directa.
 
@@ -4849,44 +4879,43 @@
         tbody
           tr
             td FALDAS
-            td 5.000
-            td $ 1.800,00
-            td $ 9.000.000
+            td.text-end 5.000
+            td.text-end $1.800,00
+            td.text-end $9.000.000
           tr
             td CAMISAS
-            td 8.000
-            td $ 1.700,00
-            td $ 13.600.000
+            td.text-end 8.000
+            td.text-end $1.700,00
+            td.text-end $13.600.000
           tr
             td 
             td 
             th.dark.text-end Total 
-            td $ 22.600.000
+            td $22.600.000
 
-    p.mb-5 El costo total de la mano de obra directa es de $ 22,600,000. Se determina la proporción entre los costos indirectos (CI) y el total de costos de mano de obra directa, CIMOD.
+    p.mb-5 El costo total de la mano de obra directa es de $22,600,000. Se determina la proporción entre los costos indirectos (CI) y el total de costos de mano de obra directa, CIMOD.
 
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .cajon.color-primario.p-4
+    .text-center.mb-5
+      .cajon.color-primario.d-inline-block.p-4
 
-          .d-flex.align-items-center.justify-content-center.mb-4
-            .flex-shrink-1.me-3
-              h4.mb-0 CI MOD =
-            .divicion
-              .divicion__top.px-3.py-1 
-                h4.mb-0 Costos indirectos
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 Costo mano de obra directa
+        .d-flex.align-items-center.justify-content-center.mb-4
+          .flex-shrink-1.me-3
+            h4.mb-0 CI MOD =
+          .divicion
+            .divicion__top.px-3.py-1 
+              h4.mb-0 Costos indirectos
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 Costo mano de obra directa
 
-          .d-flex.align-items-center.justify-content-center
-            .flex-shrink-1.me-3
-              h4.mb-0 CI MOD =
-            .divicion.me-3
-              .divicion__top.px-3.py-1
-                h4.mb-0 $ 40.000.000
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 22.600.000
-            h4.mb-0 = $ 1,7699
+        .d-flex.align-items-center.justify-content-center
+          .flex-shrink-1.me-3
+            h4.mb-0 CI MOD =
+          .divicion.me-3
+            .divicion__top.px-1.py-1
+              h4.mb-0 $40.000.000.00
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 22.600.000
+          h4.mb-0 = $1,7699
 
     .tabla
       table
@@ -4900,16 +4929,16 @@
         tbody
           tr
             td FALDAS
-            td $ 5.000
-            td $ 1.800,00
-            td $ 3.185,8
-            td $ 9.985,84
+            td.text-end $5.000
+            td.text-end $1.800,00
+            td.text-end $3.185,8
+            td.text-end $9.985,84
           tr
             td CAMISAS
-            td $ 6.000
-            td $ 1.700,00
-            td $ 3.008,8
-            td $ 10.708,85
+            td.text-end $6.000
+            td.text-end $1.700,00
+            td.text-end $3.008,8
+            td.text-end $10.708,85
 
 </template>
 

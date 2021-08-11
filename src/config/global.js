@@ -119,11 +119,11 @@ export default {
     },
     {
       referencia:
-        'Miller, J. y Vollman, T. (1985). “The hidden Factory”. Harvard Business Review, 63(1), p. 142-150.',
+        'Miller, J. y Vollman, T. (1985). <i>“The hidden Factory”. Harvard Business Review,</i> 63(1), p. 142-150.',
     },
     {
       referencia:
-        'Porter, M. E. (1998). Competitive Advantage: Creating and Sustaining Superior Performance. Free Press.',
+        'Porter, M. E. (1998). <i>Competitive Advantage: Creating and Sustaining Superior Performance. Free Press.</i>',
     },
     {
       referencia:
@@ -229,32 +229,32 @@ export default {
       {
         nombre: 'Norberto Alejo Cante',
         cargo: 'Instructor',
-        centro: 'Centro de Servicios Financieros-Regional Distrito Capital',
+        centro: 'Centro de Servicios Financieros Regional Distrito Capital',
       },
       {
         nombre: 'Jorge Alberto Leal Tocora',
         cargo: 'Instructor',
-        centro: 'Centro de Servicios Financieros-Regional Distrito Capital',
+        centro: 'Centro de Servicios Financieros Regional Distrito Capital',
       },
       {
         nombre: 'Jasbleidy Contreras Beltrán',
         cargo: 'Instructor',
-        centro: 'Centro de Servicios Financieros-Regional Distrito Capital',
+        centro: 'Centro de Servicios Financieros Regional Distrito Capital',
       },
       {
         nombre: 'Maryuri Agudelo Franco',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
       },
       {
         nombre: 'Vilma Lucía Perilla M.',
         cargo: 'Revisora pedagógica y metodológica',
-        centro: 'Centro de gestión Industrial – Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
       },
       {
         nombre: 'Uriel Darío González Montoya',
         cargo: 'Acompañamiento pedagógico',
-        centro: 'Regional Tolima – Centro Agropecuario La Granja',
+        centro: 'Centro Agropecuario La Granja Regional Tolima',
       },
     ],
     desarrolloProducto: [
@@ -270,13 +270,13 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+        nombre: 'Luis Zenen Arevalo Mantilla',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+        nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -289,12 +289,12 @@ export default {
       },
       {
         nombre: 'Andrés Mauricio Santaella Ochoa',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

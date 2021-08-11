@@ -15,8 +15,10 @@
         img(src="@/assets/curso/t6-01.svg", alt="Texto que describa la imagen")
 
 
+    h3 Las partes que componen el estado de costos 
     .row.justify-content-center
       .col-md-6.col-lg.mb-5.mb-lg-0
+
         .tarjeta-avatar
           img(src='@/assets/curso/t6-icon-01.svg' alt='AvatarTop')
           .tarjeta.color-primario--claro
@@ -100,77 +102,88 @@
 
     h3.mb-5 Fórmulas de punto de equilibrio en cantidades (Q)
 
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .cajon.color-primario.p-4
 
-          .d-flex.align-items-center.justify-content-center
-            .flex-shrink-1.me-3
-              h4.mb-0.text-end Punto de equilibrio en cantidades =
-            .divicion
-              .divicion__top.px-3.py-1 
-                h4.mb-0 Costos fijos mensuales
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 Precio de venta unitario-Costo variable unitario
+    .text-center.mb-5
+      .cajon.color-primario.d-inline-block.p-4
+        .d-flex.align-items-center.justify-content-center
+          .flex-shrink-1.me-3
+            .d-flex.align-items-center
+              h4.mb-0.text-end.me-3 Punto de equilibrio en cantidades
+              h4.mb-0 =
+          .divicion
+            .divicion__top.px-3.py-1 
+              h4.mb-0 Costos fijos mensuales
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 Precio de venta unitario-Costo variable unitario
 
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .cajon.color-primario.p-4
+
+    .text-center.mb-5
+      .cajon.color-primario.d-inline-block.p-4
+        .text-start
           h5 Ejemplo:
-          .d-flex.align-items-center.justify-content-center
-            .divicion.me-3
-              .divicion__top.px-3.py-1
-                h4.mb-0 $ 23.082.497
-              .divicion__bottom.px-3.py-1
-                h4.mb-0 3.000,00 - 1.449,38
-            h4.mb-0 = 14.886 Unidades a vender
+        .d-flex.align-items-center.justify-content-center
+          .divicion.me-3
+            .divicion__top.px-3.py-1
+              h4.mb-0 $23.082.497,00
+            .divicion__bottom.px-3.py-1
+              h4.mb-0 3.000,00 - 1.449,38
+          h4.mb-0.me-3 = 
+          h4.mb-0.text-start 14.886 Unidades a vender
 
     p.mb-5 De acuerdo con el ejemplo, se puede deducir que la empresa debe vender más de las 14.886 unidades para obtener utilidad; si lo hace por debajo de esas unidades, presentará perdida.
 
     h3.mb-5 Fórmula de punto de equilibrio en pesos
 
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .cajon.color-primario.p-4
+    p.mb-5 El punto de equilibrio en pesos le indica al industrial Juan cuál debe ser el monto de las ventas en pesos para cubrir los costos y gastos fijos de la empresa sin obtener ningún beneficio en este punto.
+      br
+      br
+      | Ejemplo:
 
-          .d-flex.align-items-center.justify-content-center.mb-4
-            .flex-shrink-1.me-3
-              h4.mb-0.text-end Punto de equilibrio<br/>en pesos = 
-            .divicion.flex-shrink-1
-              .divicion__top.px-3.py-1 
-                h4.mb-0 Costo fijo mensual 
-              .divicion__bottom.px-3.py-1
-                .d-flex.align-items-stretch.justify-content-center.mb-4
-                  .flex-shrink-1.me-3
-                    .d-flex.align-items-center.h-100
-                      h4.mb-0 1-
-                  .parentesis-s
-                  .divicion
-                    .divicion__top.px-3.py-1 
-                      h4.mb-0 Costo variable unitario
-                    .divicion__bottom.px-3.py-1
-                      h4.mb-0 Precio de venta unitario
-                  .parentesis-e
+    .text-center.mb-5
+      .cajon.color-primario.d-inline-block.p-4
+        .d-flex.align-items-center.justify-content-center.mb-4
+          .flex-shrink-1.me-2
+            .d-flex.align-items-center
+              h4.mb-0.text-end.me-2 Punto de<br/>equilibrio<br/>en pesos
+              h4.mb-0 = 
+          .divicion.flex-shrink-1
+            .divicion__top.px-3.py-1 
+              h4.mb-0 Costo fijo mensual 
+            .divicion__bottom.px-1.py-1
+              .d-flex.align-items-stretch.justify-content-center.mb-4
+                .flex-shrink-1.me-3
+                  .d-flex.align-items-center.h-100
+                    h4.mb-0 1-
+                .parentesis-s
+                .divicion
+                  .divicion__top.px-3.py-1 
+                    h4.mb-0 Costo variable unitario
+                  .divicion__bottom.px-3.py-1
+                    h4.mb-0 Precio de venta unitario
+                .parentesis-e
 
-          .d-flex.align-items-center.justify-content-center
-            .flex-shrink-1.me-3
-              h4.mb-0.text-end Punto de equilibrio<br/>en pesos =
-            .divicion.flex-shrink-1
-              .divicion__top.px-3.py-1 
-                h4.mb-0 23.082.497
-              .divicion__bottom.px-3.py-1
-                .d-flex.align-items-stretch.justify-content-center.mb-4
-                  .flex-shrink-1.me-3
-                    .d-flex.align-items-center.h-100
-                      h4.mb-0 1-
-                  .parentesis-s
-                  .divicion
-                    .divicion__top.px-3.py-1 
-                      h4.mb-0 1.449,38
-                    .divicion__bottom.px-3.py-1
-                      h4.mb-0 3.000
-                  .parentesis-e
-            h4.mb-0 = 44.657.793
+        .d-flex.align-items-center.justify-content-center
+          .flex-shrink-1.me-2
+            .d-flex.align-items-center
+              h4.mb-0.text-end.me-2 Punto de<br/>equilibrio<br/>en pesos
+              h4.mb-0 =
+          .divicion.flex-shrink-1.me-2
+            .divicion__top.px-1.py-1 
+              h4.mb-0 23.082.497
+            .divicion__bottom.px-1.py-1
+              .d-flex.align-items-stretch.justify-content-center
+                .flex-shrink-1.me-1
+                  .d-flex.align-items-center.h-100
+                    h4.mb-0 1-
+                .parentesis-s
+                .divicion
+                  .divicion__top.py-1 
+                    h4.mb-0 1.449,38
+                  .divicion__bottom.py-1
+                    h4.mb-0 3.000
+                .parentesis-e
+          h4.mb-0.me-2 =
+          h4.mb-0 44.657.793
 
     p.mb-5 Es el punto donde los ingresos cubren la totalidad de los costos y gastos de la empresa para el periodo establecido, por tanto, ni se gana ni se pierde. Pero le permite a la administración tomar decisiones en el ambiente del recurso humano, tecnológico y financiero. 
       br
