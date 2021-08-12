@@ -776,7 +776,7 @@
                 tr
                   td SOLICITÓ
                   td  
-                  td ENTREÓ
+                  td ENTREGÓ
                   td KARDEX
                   td  
                   td RECIBIDO 
@@ -1032,21 +1032,21 @@
             th(colspan="2") MOD - MOI - (NÓMINA)
         tbody
           tr
-            th.dark.text-end DÍAS AÑO
+            th.dark.text-center DÍAS AÑO
             td.text-end 366
-            th.dark.text-end DOMINGOS Y FESTIVOS
+            th.dark.text-center DOMINGOS Y FESTIVOS
             td.text-end 70
           tr
-            th.dark.text-end DÍAS LABORABLES
+            th.dark.text-center DÍAS LABORABLES
             td.text-end 296
-            th.dark.text-end DÍAS PROMEDIO
+            th.dark.text-center DÍAS PROMEDIO
             td 24,67
           tr
-            th.dark.text-end SMLV
+            th.dark.text-center SMLV
             td.text-end $877.803
             th(colspan="2" rowspan="2") PAGADO POR LA EMPRESA AL TRABAJADOR 
           tr
-            th.dark.text-end AUXILIO
+            th.dark.text-center AUXILIO
             td $102.854
           tr
             th CONCEPTO
@@ -1054,69 +1054,69 @@
             th APORTES 
             th %
           tr
-            th.dark.text-end BÁSICO 
+            th.dark.text-center BÁSICO 
             td.text-end $877.803
-            th.dark.text-end ARL
+            th.dark.text-center ARL
             td 0,52 %
           tr
-            th.dark.text-end AUXILIO
+            th.dark.text-center AUXILIO
             td.text-end $102.854
-            th.dark.text-end EPS
+            th.dark.text-center EPS
             td 0,00 %
           tr
-            th.dark.text-end APORTES 
+            th.dark.text-center APORTES 
             td.text-end $145.031
-            th.dark.text-end FP
+            th.dark.text-center FP
             td 12 %
           tr
-            th.dark.text-end PRESTACIÓN
+            th.dark.text-center PRESTACIÓN
             td.text-end $214.077
-            th.dark.text-end CC
+            th.dark.text-center CC
             td 4 %
           tr
-            th.dark.text-end TOTAL MES 
+            th.dark.text-center TOTAL MES 
             td.text-end $1.339.765
-            th.dark.text-end ICBF
+            th.dark.text-center ICBF
             td 0,00 %
           tr
-            th.dark.text-end DÍAS TRABAJADOS MES 
+            th.dark.text-center DÍAS TRABAJADOS MES 
             td.text-end 24,67
-            th.dark.text-end SENA
+            th.dark.text-center SENA
             td 0,00 %
           tr
-            th.dark.text-end HORAS MES 
+            th.dark.text-center HORAS MES 
             td.text-end 197
-            th.dark.text-end TOTAL
+            th.dark.text-center TOTAL
             td 16,52 %
           tr
-            th.dark.text-end VALOR HORA 
+            th.dark.text-center VALOR HORA 
             td.text-end $6.789
             th PRESTACIONES 
             th  %
           tr
-            th.dark.text-end MINUTOS MES 
+            th.dark.text-center MINUTOS MES 
             td.text-end $11.840
-            th.dark.text-end CESANTÍAS 
+            th.dark.text-center CESANTÍAS 
             td 8,33 %
           tr
-            th.dark.text-end VALOR MINUTO 
+            th.dark.text-center VALOR MINUTO 
             td.text-end $113,16
-            th.dark.text-end INTERÉS CESANTÍAS 
+            th.dark.text-center INTERÉS CESANTÍAS 
             td 1,00 %
           tr
-            th.dark.text-end VALOR SEGUNDO 
+            th.dark.text-center VALOR SEGUNDO 
             td.text-end $1,89
-            th.dark.text-end PRIMA 
+            th.dark.text-center PRIMA 
             td 8,33 %
           tr
-            th.dark.text-end
+            th.dark.text-center
             td  
-            th.dark.text-end VACACIONES 
+            th.dark.text-center VACACIONES 
             td 4,17 %
           tr
-            th.dark.text-end
+            th.dark.text-center
             td  
-            th.dark.text-end TOTAL 
+            th.dark.text-center TOTAL 
             td 21,83 %
 
     p.mb-5 A continuación, se aplica la proyección de la mano de obra directa requerida para el proceso de producción mensual, estableciendo tiempos por cada proceso, costo de la mano de obra directa y número de operarios requeridos para la producción.
@@ -1616,7 +1616,7 @@
             td
             td.dark.text-end RFRTA/*1
             td.text-end 2,50 %
-            td $891.190
+            td $891.188
           tr
             td
             td
@@ -3827,10 +3827,10 @@
                   td $400.000
                 tr
                   td(colspan="4")
-                  td $
+                  td 
                 tr
                   td(colspan="4")
-                  td $
+                  td 
                 tr
                   td(colspan="3")
                   th.dark.text-end SUBTOTAL 
@@ -3838,7 +3838,7 @@
                 tr
                   td(colspan="3")
                   th.dark.text-end IVA
-                  td $
+                  td 
                 tr
                   td(colspan="3")
                   th.dark.text-end TOTAL 
@@ -3899,10 +3899,10 @@
                   td $300.000
                 tr
                   td(colspan="4")
-                  td $
+                  td 
                 tr
                   td(colspan="4")
-                  td $
+                  td 
                 tr
                   td(colspan="3")
                   th.dark.text-end SUBTOTAL
@@ -3910,7 +3910,7 @@
                 tr
                   td(colspan="3")
                   th.dark.text-end IVA
-                  td $
+                  td 
                 tr
                   td(colspan="3")
                   th.dark.text-end TOTAL 
@@ -4044,10 +4044,10 @@
                   td $200.000
                 tr
                   td(colspan="4")
-                  td $
+                  td 
                 tr
                   td(colspan="4")
-                  td $
+                  td 
                 tr
                   td(colspan="3")
                   th.dark.text-end SUBTOTAL 
@@ -4166,13 +4166,13 @@
                 td 
                 td 
                 td 
-                td(colspan="2") $10.911.247
+                td.text-red(colspan="2") $10.911.247
               tr
                 td(colspan="3") MAYOR CIF APLICADO
                 td 
                 td 
                 td 
-                td(colspan="2") $51.132
+                td.text-red(colspan="2") $51.132
 
 
     p.mb-5 A continuación, se generan los auxiliares de producto terminado y el costo de venta para establecer la proporcionalidad de distribución de la variación. En el ejemplo, sería:
@@ -4220,7 +4220,7 @@
             td(colspan="2") SALDO INVENT PRODUCTO TERMINADO
             td.text-end $15.991.836
             td.text-end 20 %
-            td.text-end $10.226
+            td.text-red.text-end $10.226
           tr
             td(colspan="2") COSTO DE VENTA MFE
             td.text-end $63.967.600
@@ -4230,7 +4230,7 @@
             td(colspan="2") TOTAL INVENT DE PRODUCTO TERMINADO
             td.text-end $79.959.436
             td 
-            td $51.132
+            td.text-red $51.132
 
     p.mb-5 Una vez realizada la distribución del mayor costo indirecto de fabricación (CIF) aplicado, se realiza el respectivo reconocimiento.
 
@@ -4598,7 +4598,7 @@
             h4.mb-0 C.I.P =
           .divicion.me-3
             .divicion__top.px-1.py-1
-              h4.mb-0 $40.000.000.00
+              h4.mb-0 $40.000.000,00
             .divicion__bottom.px-3.py-1
               h4.mb-0 13.000
           h4.mb-0 = $3.076,92
@@ -4679,7 +4679,7 @@
             h4.mb-0 C.I.MP =
           .divicion.me-3
             .divicion__top.px-1.py-1
-              h4.mb-0 $40.000.000.00
+              h4.mb-0 $40.000.000,00
             .divicion__bottom.px-3.py-1
               h4.mb-0 73.000
           h4.mb-0 = $0,5479
@@ -4759,7 +4759,7 @@
             h4.mb-0 CTHH =
           .divicion.me-3
             .divicion__top.px-1.py-1
-              h4.mb-0 $40.000.000.00
+              h4.mb-0 $40.000.000,00
             .divicion__bottom.px-3.py-1
               h4.mb-0 10.500
           h4.mb-0 = $3.809,52
@@ -4838,7 +4838,7 @@
             h4.mb-0 CTHM =
           .divicion.me-3
             .divicion__top.px-1.py-1
-              h4.mb-0 $40.000.000.00
+              h4.mb-0 $40.000.000,00
             .divicion__bottom.px-3.py-1
               h4.mb-0 10.500
           h4.mb-0 = $3.809,52
@@ -4912,7 +4912,7 @@
             h4.mb-0 CI MOD =
           .divicion.me-3
             .divicion__top.px-1.py-1
-              h4.mb-0 $40.000.000.00
+              h4.mb-0 $40.000.000,00
             .divicion__bottom.px-3.py-1
               h4.mb-0 22.600.000
           h4.mb-0 = $1,7699

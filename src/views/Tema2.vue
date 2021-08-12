@@ -11,11 +11,11 @@
     p.mb-5 El estado de costos de producción y ventas identifica el costo de las unidades fabricadas. Controlar los elementos del costo (materia prima, mano de obra directa y los costos indirectos de fabricación), conocer la producción, identificar los costos de las unidades vendidas es la base para identificar la diferencia entre los costos estimados y los costos reales.    
 
     .row.justify-content-center.mb-5
-      .col-8
+      .col-7
         img(src="@/assets/curso/t6-01.svg", alt="Texto que describa la imagen")
 
 
-    h3 Las partes que componen el estado de costos 
+    h3.mb-5 Las partes que componen el estado de costos 
     .row.justify-content-center
       .col-md-6.col-lg.mb-5.mb-lg-0
 
@@ -114,7 +114,7 @@
             .divicion__top.px-3.py-1 
               h4.mb-0 Costos fijos mensuales
             .divicion__bottom.px-3.py-1
-              h4.mb-0 Precio de venta unitario-Costo variable unitario
+              h4.mb-0 Precio de venta unitario - Costo variable unitario
 
 
     .text-center.mb-5
@@ -193,8 +193,9 @@
 
     .row.justify-content-center
       .col-md-8
-        img(src='@/assets/curso/t6-tabla-01.svg' alt='AvatarTop')
-
+        figure
+          img.mb-4(src='@/assets/curso/t6-tabla-01.svg' alt='AvatarTop')
+          figcaption Nota. Tomada de Valladares (2018).
 </template>
 
 <script>
